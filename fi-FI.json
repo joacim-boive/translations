@@ -1,0 +1,1228 @@
+{
+    "blank": "",
+    "update": {
+        "MUST_UPDATE": {
+            "header": "IInfoormatiioon",
+            "body": [
+                ""
+            ]
+        },
+        "SHOULD_UPDATE": {
+            "header": "IInfoormatiioon",
+            "body": [
+                ""
+            ]
+        },
+        "button": {
+            "cancel": "",
+            "ok": ""
+        }
+    },
+    "status": {
+        "backend": {
+            "ACS": {
+                "down": {
+                    "header": "",
+                    "body": [
+                        ""
+                    ],
+                    "block-card": {
+                        "header": "",
+                        "sweden": {
+                            "label": "",
+                            "phone": ""
+                        },
+                        "abroad": {
+                            "label": "",
+                            "phone": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "general": {
+        "title": "",
+        "help": "",
+        "back": "",
+        "cancel": "",
+        "download": "",
+        "close": "",
+        "edit": "",
+        "save": "",
+        "ok": "",
+        "next": "",
+        "previous": "Fööregååeendee",
+        "ssn": "",
+        "total": "",
+        "address": {
+            "name": "",
+            "address": "",
+            "mobile": "",
+            "number": "",
+            "country-code": "",
+            "email": "",
+            "zip": "",
+            "city": "",
+            "country": "",
+            "info": ""
+        },
+        "exportToExcel": "",
+        "validation": {
+            "ssn": "",
+            "email": "",
+            "phone": "",
+            "country-code": ""
+        },
+        "answer": {
+            "yes": "",
+            "no": ""
+        },
+        "currency": {
+            "se": ""
+        },
+        "banks": {
+            "seb": "",
+            "nordea": "",
+            "swedbank": "",
+            "sparbank": "",
+            "handelsbanken": ""
+        },
+        "error": {
+            "general": {
+                "header": "",
+                "body": ""
+            }
+        },
+        "support-opening-hours": "",
+        "phone-link-087014667": "",
+        "phone-link-08343550": "",
+        "phone-link-08330130": "",
+        "phone-link-020411212": "",
+        "phone-link-0771299300": "",
+        "phone-link-4684112122": "",
+        "bgNumber": {
+            "account": "",
+            "invoice": ""
+        }
+    },
+    "account": {
+        "error": {
+            "ACCOUNT_GET_ACCOUNT_FAILURE": {
+                "header": "",
+                "body": ""
+            },
+            "ACCOUNT_GET_ACCOUNT_TRANSACTIONS_FAILURE": {
+                "header": "",
+                "body": ""
+            },
+            "ACCOUNT_GET_ACCOUNT_TERMS_FAILURE": {
+                "header": "",
+                "body": ""
+            }
+        },
+        "header": {
+            "remaining-credit": "",
+            "used-credit": ""
+        },
+        "overview": {
+            "header": "",
+            "invoices-header": "",
+            "offers-panel": {
+                "header": "",
+                "text": "",
+                "linkText": ""
+            }
+        },
+        "loan": {
+            "type": "",
+            "typeOfLoan": "",
+            "applicationDate": "",
+            "amount": "",
+            "status": {
+                "label": "",
+                "PENDING": {
+                    "label": "",
+                    "header": "",
+                    "body": [
+                        ""
+                    ]
+                },
+                "PAID": {
+                    "label": "",
+                    "header": "",
+                    "body": [
+                        ""
+                    ],
+                    "link": ""
+                },
+                "APPROVED": {
+                    "label": "",
+                    "header": "",
+                    "sub-header": "",
+                    "body": [
+                        ""
+                    ],
+                    "link": ""
+                },
+                "DENIED": {
+                    "label": "",
+                    "header": "",
+                    "body": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "next-payment": {
+            "unpaid": "",
+            "partly-paid": "",
+            "paid": "",
+            "no-invoice": {
+                "header": "",
+                "text": ""
+            },
+            "zero-invoice": {
+                "header": "",
+                "text": ""
+            },
+            "notification": {
+                "has-paid-too-little": {
+                    "title": "",
+                    "message": ""
+                }
+            },
+            "header": "",
+            "due-date": "",
+            "amount": "",
+            "amount-paid": "",
+            "paid-more": "",
+            "show-details": "",
+            "bgNumber": "",
+            "ocr": ""
+        },
+        "latest-transactions": {
+            "header": "",
+            "missing": [
+                ""
+            ]
+        },
+        "links": {
+            "transactions": "",
+            "raise-credit": "",
+            "part-payments": "",
+            "account-invoice": "",
+            "manage-cards": "",
+            "apply-for-card": "",
+            "terms": "",
+            "validation-message": ""
+        },
+        "part-payment": {
+            "amount": "",
+            "pay-later": "",
+            "payment-option": "",
+            "pending": "",
+            "payment-plan": "",
+            "several-months": "",
+            "singular-month": "",
+            "rate": "",
+            "finished": "",
+            "startFee": "",
+            "adminFee": "",
+            "payments": "",
+            "effectiveRate": "",
+            "sumRate": "",
+            "total": "",
+            "nr-of-payments": "",
+            "per-month": "",
+            "admin-fee-per-month": "",
+            "choice-header": "",
+            "terms": "",
+            "submit": "",
+            "no-choice": "",
+            "total-ongoing": "",
+            "part-payments": "",
+            "part-payment": "",
+            "future-date": "",
+            "months-left": "",
+            "months-left_plural": "",
+            "left": "",
+            "purchase-date": "",
+            "fees": "",
+            "possible-header": "",
+            "possible-text": "",
+            "monthly-trans": "",
+            "click-to-show": "",
+            "ongoing": "",
+            "no-ongoing": "",
+            "no-possible": "",
+            "success": {
+                "header": "",
+                "body": "",
+                "bodyPayLater": "",
+                "body2PayLater": "",
+                "body2": "",
+                "payment-link": "",
+                "back-link": ""
+            }
+        },
+        "summary": {
+            "left": "",
+            "used": "",
+            "total": ""
+        },
+        "transactions": {
+            "page-header": "",
+            "reserved-amount": "",
+            "show-more": "",
+            "no-transactions": "",
+            "no-more-transactions": "",
+            "exchange-rate": ""
+        },
+        "sales-panel": {
+            "header": "",
+            "body": "",
+            "button": ""
+        },
+        "terms": {
+            "account-terms": "",
+            "terms-information": "",
+            "account-number": "",
+            "account-name": "",
+            "total-credit": "",
+            "interest": "",
+            "deposit-rate": "",
+            "admin-fee": "",
+            "yearly-fee": "",
+            "extra-card-fee": "",
+            "withdrawal-fee-cash": "",
+            "withdrawal-fee-atm": "",
+            "withdrawal-fee-foreign-currency": "",
+            "withdrawal-fee": "",
+            "exchange-fee": "",
+            "late-payment-fee": "",
+            "overdraft-fee": "",
+            "account-terms-pdf": "",
+            "account-agreement-pdf": "",
+            "atm-withdrawal-fee-value": "",
+            "withdrawal-fee-value": "",
+            "withdrawal-fee-only-value": "",
+            "foreign-currency-withdrawal-fee-value": "",
+            "account-number-description": "",
+            "account-name-description": "",
+            "total-credit-description": "",
+            "interest-description": "",
+            "deposit-rate-description": "",
+            "admin-fee-description": "",
+            "yearly-fee-description": "",
+            "extra-card-fee-description": "",
+            "withdrawal-fee-description": "",
+            "exchange-fee-description": "",
+            "withdrawal-fee-foreign-currency-description": "",
+            "late-payment-fee-description": "",
+            "overdraft-fee-description": "",
+            "account-terms-pdf-description": "",
+            "terms-error": ""
+        },
+        "terminate": {
+            "terminate-account": "",
+            "terminate-my-account": "",
+            "header": "",
+            "info-text": "",
+            "q1": "",
+            "q2": "",
+            "q3": "",
+            "q4": "",
+            "q5": "",
+            "q6": "",
+            "success": {
+                "header": "",
+                "message": "",
+                "back": ""
+            },
+            "failure": {
+                "header": "",
+                "message": "",
+                "back": ""
+            },
+            "confirm-header": "",
+            "confirm-text": "",
+            "confirm-ok": "",
+            "confirm-cancel": "",
+            "intro": {
+                "info-text": [
+                    ""
+                ]
+            },
+            "overdrawn": {
+                "header": "",
+                "info": ""
+            }
+        },
+        "raise-credit": {
+            "page-header": "",
+            "header": "",
+            "intro": "",
+            "current-credit-limit": "",
+            "max-credit-limit": "",
+            "new-credit-limit": "",
+            "select-amount": "",
+            "terms": "",
+            "terms-description": "",
+            "terms-items": [
+                ""
+            ],
+            "terms-conditions": "",
+            "apply-note": "",
+            "apply": "",
+            "processing-message": "",
+            "processing-message-uc": "",
+            "not-allowed": {
+                "alert-header": "",
+                "alert-message": "",
+                "info-message": ""
+            },
+            "approved-header": "",
+            "approved-message": "",
+            "pending-header": "",
+            "pending-message": [
+                ""
+            ],
+            "denied-header": "",
+            "denied-message": [
+                ""
+            ],
+            "error": {
+                "communication": {
+                    "header": "",
+                    "body": ""
+                }
+            },
+            "back-to-overview": ""
+        },
+        "no-account": {
+            "panel1": {
+                "header": "",
+                "text": "",
+                "bullets": [
+                    ""
+                ],
+                "button-text": ""
+            },
+            "panel2": {
+                "header": "",
+                "text": "",
+                "button-text": ""
+            }
+        },
+        "terminated-account": {
+            "header": "",
+            "short-info": "",
+            "long-info": [
+                ""
+            ]
+        }
+    },
+    "authentication": {
+        "not-a-customer": {
+            "header": "",
+            "info": [
+                ""
+            ],
+            "link": ""
+        }
+    },
+    "common": {
+        "under-construction": {
+            "header": "",
+            "info": ""
+        },
+        "onboarding": {
+            "header": "",
+            "button-text": "",
+            "bullets": [
+                ""
+            ]
+        },
+        "404": {
+            "header": "",
+            "info": {
+                "logged-in": [
+                    ""
+                ],
+                "not-logged-in": [
+                    ""
+                ]
+            },
+            "back-link": {
+                "logged-in": "",
+                "not-logged-in": ""
+            }
+        }
+    },
+    "invoice": {
+        "general": {
+            "due-date": ""
+        },
+        "invoice-values": {
+            "due-amount": "",
+            "bg-number": "",
+            "tooltip": {
+                "copy-amount": "",
+                "copy-due-date": "",
+                "copy-bg-number": "",
+                "copy-ocr-number": "",
+                "copy-success": ""
+            }
+        },
+        "contract-invoice": {
+            "invoice-info": {
+                "ocr-label": ""
+            }
+        },
+        "account-invoice": {
+            "page-header": "",
+            "zero-invoice": {
+                "header": "",
+                "text": ""
+            },
+            "no-invoice": {
+                "header": "",
+                "info": [
+                    ""
+                ]
+            },
+            "invoice-info": {
+                "header": "",
+                "amount-paid": "",
+                "ocr-account": "",
+                "ocr-info": "",
+                "invoice-spec": "",
+                "paid": {
+                    "between-lab1-lab2": "",
+                    "between-lab2-lab3": "",
+                    "paid-lab3": "",
+                    "paid-more-lab3": ""
+                }
+            },
+            "calculate-panel": {
+                "header": "",
+                "info": "",
+                "slider-header": "",
+                "radio1-label": "",
+                "radio2-label": "",
+                "no-plan": {
+                    "header": "",
+                    "info": ""
+                },
+                "follow-plan": {
+                    "header": "",
+                    "info": ""
+                },
+                "dont-follow-plan": {
+                    "header": "",
+                    "info": ""
+                },
+                "part-payments": "",
+                "card-purchases": "",
+                "next-month": {
+                    "header": "",
+                    "transfer-header": "",
+                    "transfer-info": "",
+                    "interest-header": "",
+                    "interest-info": {
+                        "follow": "",
+                        "dont-follow": "",
+                        "2c": "",
+                        "no-interest": ""
+                    }
+                }
+            }
+        },
+        "account-invoice-spec": {
+            "page-header": "",
+            "debt": "",
+            "owing": "",
+            "total-debt": "",
+            "total-owing": "",
+            "to-pay": "",
+            "this-months-transactions": "",
+            "this-months-part-payments": ""
+        },
+        "invoice-overview": {
+            "page-header": "",
+            "table": {
+                "description": "",
+                "invoice-no": "",
+                "due-date": "",
+                "amount": "",
+                "credit-invoice": ""
+            },
+            "due-date": {
+                "today": "",
+                "days-left": "",
+                "days-left_plural": ""
+            },
+            "no-invoice": {
+                "header": "",
+                "info": ""
+            }
+        },
+        "one-off-invoice": {
+            "debit": {
+                "page-header": "",
+                "summary-header": "",
+                "invoice-link": "",
+                "payment-info-header": "",
+                "payment-info": ""
+            },
+            "credit": {
+                "page-header": "",
+                "summary-header": "",
+                "invoice-link": "",
+                "info": [
+                    ""
+                ],
+                "related-invoice": "",
+                "order-number": ""
+            },
+            "transactions-header": {
+                "DEBIT": "",
+                "CREDIT": ""
+            },
+            "bgNumber": "",
+            "ocr": "",
+            "invoice-no": "",
+            "invoice-date": "",
+            "table": {
+                "description": "",
+                "number": "",
+                "price": "",
+                "amount": ""
+            },
+            "summary": {
+                "INVOICE_FEE": "",
+                "SHIPPING_FEE": "",
+                "FORWARD_FEE": "",
+                "DISPATCH_FEE": "",
+                "GENERIC_FEE": "",
+                "sum-excl-tax": "",
+                "tax": "",
+                "sum-incl-tax": ""
+            }
+        },
+        "credit-invoice": {
+            "page-header": ""
+        },
+        "ocr-scan": {
+            "text": "",
+            "info": ""
+        }
+    },
+    "card": {
+        "faq": {
+            "header-faq": "",
+            "header-section-1": "",
+            "question-1-1": "",
+            "question-1-2": "",
+            "answer-to-question-1-2": "",
+            "answer-to-question-1-1": "",
+            "header-section-2": "",
+            "question-2-1": "",
+            "question-2-2": "",
+            "answer-to-question-2-1": "",
+            "answer-to-question-2-2": ""
+        },
+        "general": {
+            "card-number": "",
+            "card-holder": "",
+            "valid-to": "",
+            "status": "",
+            "active": "",
+            "activate": "",
+            "inactive": ""
+        },
+        "manage-card": {
+            "page-header": "",
+            "page-header-no-card": ""
+        },
+        "apply-for-card": {
+            "header": "",
+            "info": "",
+            "terms-info": "",
+            "sub-header1": "",
+            "sub-header2": "",
+            "yearly-fee": "",
+            "credit-limit": "",
+            "info-list": [
+                ""
+            ],
+            "button": "",
+            "confirm-dialog": {
+                "header": "",
+                "text": "",
+                "ok-button": ""
+            },
+            "success": {
+                "header": "",
+                "info": ""
+            },
+            "pending": {
+                "header": "",
+                "header_plural": "",
+                "info": "",
+                "info_plural": ""
+            },
+            "failure": {
+                "header": "",
+                "info": ""
+            }
+        },
+        "activate-card": {
+            "header": "",
+            "info": "",
+            "input-label": "",
+            "button": "",
+            "validation-message": "",
+            "wrong-cvc": "",
+            "success": {
+                "header": "",
+                "info": ""
+            },
+            "failure": {
+                "header": "",
+                "info": ""
+            }
+        },
+        "show-card": {
+            "default-card-name": "",
+            "BLOCKED": "",
+            "TEMPORARILY_BLOCKED": "",
+            "ACTIVE": "",
+            "INACTIVE": ""
+        },
+        "block-card": {
+            "header": "",
+            "info": ""
+        },
+        "apply-for-extra-card": {
+            "header": "",
+            "info": "",
+            "button": ""
+        },
+        "show-extra-card": {
+            "header": "",
+            "change-button": "",
+            "pending": {
+                "header": "",
+                "info": ""
+            }
+        }
+    },
+    "customer": {
+        "profile": {
+            "info-text": "",
+            "reminder": {
+                "header": "",
+                "info": "",
+                "success": {
+                    "header": "",
+                    "info": ""
+                }
+            }
+        },
+        "contact-us": {
+            "header": "",
+            "sub-header": "",
+            "faq": {
+                "header": "",
+                "info": "",
+                "button": "",
+                "url": ""
+            },
+            "section1": {
+                "header": "",
+                "opening-hours": "",
+                "info": "",
+                "call-info": ""
+            },
+            "section2": {
+                "header": "",
+                "opening-hours": "",
+                "info": "",
+                "call-info": ""
+            },
+            "section3": {
+                "header": "",
+                "opening-hours": "",
+                "call-info": {
+                    "from-sweden-label": "",
+                    "from-abroad-label": "",
+                    "from-sweden-number": "",
+                    "from-abroad-number": ""
+                }
+            }
+        }
+    },
+    "home": {
+        "login": {
+            "SE": {
+                "desktop": {
+                    "header": "",
+                    "ssn-label": "",
+                    "ssn-placeholder": "",
+                    "login-button": "",
+                    "login-button-bid": ""
+                },
+                "touch": {
+                    "mbid-other-device": {
+                        "header": "",
+                        "sub-header": "",
+                        "ssn-label": "",
+                        "ssn-placeholder": "",
+                        "login-button": "",
+                        "to-mbid-this-device-button": ""
+                    },
+                    "mbid-this-device": {
+                        "header": "",
+                        "login-button": "",
+                        "to-mbid-button": ""
+                    }
+                },
+                "in-progress": {
+                    "manual": {
+                        "info": "",
+                        "button": ""
+                    },
+                    "desktop": {
+                        "this-device": {
+                            "header": "",
+                            "body": [
+                                ""
+                            ],
+                            "body-cancelled": [
+                                ""
+                            ],
+                            "body-already-in-progress": [
+                                ""
+                            ],
+                            "body-internal-error": [
+                                ""
+                            ],
+                            "body-user-cancel": [
+                                ""
+                            ],
+                            "body-expired-transaction": [
+                                ""
+                            ],
+                            "body-user-sign": [
+                                ""
+                            ],
+                            "body-certificate-error": [
+                                ""
+                            ],
+                            "body-started": [
+                                ""
+                            ],
+                            "body-start-failed": [
+                                ""
+                            ]
+                        },
+                        "other-device": {
+                            "header": "",
+                            "body": [
+                                ""
+                            ],
+                            "body-cancelled": [
+                                ""
+                            ],
+                            "body-already-in-progress": [
+                                ""
+                            ],
+                            "body-internal-error": [
+                                ""
+                            ],
+                            "body-user-cancel": [
+                                ""
+                            ],
+                            "body-expired-transaction": [
+                                ""
+                            ],
+                            "body-user-sign": [
+                                ""
+                            ],
+                            "body-certificate-error": [
+                                ""
+                            ],
+                            "body-start-failed": [
+                                ""
+                            ]
+                        }
+                    },
+                    "touch": {
+                        "this-device": {
+                            "header": "",
+                            "body": [
+                                ""
+                            ],
+                            "body-cancelled": [
+                                ""
+                            ],
+                            "body-already-in-progress": [
+                                ""
+                            ],
+                            "body-internal-error": [
+                                ""
+                            ],
+                            "body-user-cancel": [
+                                ""
+                            ],
+                            "body-expired-transaction": [
+                                ""
+                            ],
+                            "body-user-sign": [
+                                ""
+                            ],
+                            "body-certificate-error": [
+                                ""
+                            ],
+                            "body-start-failed": [
+                                ""
+                            ]
+                        },
+                        "other-device": {
+                            "header": "",
+                            "body": [
+                                ""
+                            ],
+                            "body-cancelled": [
+                                ""
+                            ],
+                            "body-already-in-progress": [
+                                ""
+                            ],
+                            "body-internal-error": [
+                                ""
+                            ],
+                            "body-user-cancel": [
+                                ""
+                            ],
+                            "body-expired-transaction": [
+                                ""
+                            ],
+                            "body-user-sign": [
+                                ""
+                            ],
+                            "body-certificate-error": [
+                                ""
+                            ],
+                            "body-start-failed": [
+                                ""
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "feedback": {
+            "header": "",
+            "info": "",
+            "link": ""
+        },
+        "after-logout": {
+            "login-link": "",
+            "logged-out-msg": ""
+        }
+    },
+    "loan": {
+        "status": {
+            "DENIED": {
+                "header": "",
+                "body": [
+                    ""
+                ]
+            },
+            "ERROR": {
+                "header": "",
+                "body": [
+                    ""
+                ]
+            },
+            "PENDING": {
+                "header": "",
+                "sub-header": "",
+                "body": [
+                    ""
+                ]
+            },
+            "APPROVED": {
+                "header": "",
+                "ingress": "",
+                "sub-header": "",
+                "body": [
+                    ""
+                ]
+            }
+        },
+        "overview-header": "",
+        "processing-message": "",
+        "general": {
+            "about": "",
+            "account": "",
+            "account-number": "",
+            "account-number-error": "",
+            "apply": "",
+            "clearing-number": "",
+            "clearing-number-error": "",
+            "clearing-number-error-sparbank": "",
+            "clearing-number-error-swedbank": "",
+            "consumer-goods": "",
+            "header": "",
+            "other": "",
+            "other-usage": "",
+            "other-usage-error": "",
+            "purpose": "",
+            "purpose-error": "",
+            "resolve-other": "",
+            "resolve": "",
+            "residence-other": "",
+            "vehicle": "",
+            "terms": "",
+            "terms-error": "",
+            "withdrawal": "",
+            "enter-bank": "",
+            "bank": "",
+            "bank-error": ""
+        },
+        "economy": {
+            "12month": "",
+            "12month-error": "",
+            "12month-company": "",
+            "12month-company-error": "",
+            "adults-label": "",
+            "adults-error": "",
+            "children-label": "",
+            "children-error": "",
+            "company-name": "",
+            "company-name-error": "",
+            "default-label": "",
+            "employer": "",
+            "employer-error": "",
+            "occupation-error": "",
+            "gross-income-label": "",
+            "gross-income-error": "",
+            "header": "",
+            "household": "",
+            "house-label": "",
+            "income-label": "",
+            "income-error": "",
+            "living-label": "",
+            "living-error": "",
+            "living-other-label": "",
+            "living-other-error": "",
+            "mortgage-checkbox": "",
+            "mortgage-checkbox-error": "",
+            "mortgage-cost-label": "",
+            "mortgage-cost-error": "",
+            "occupation": "",
+            "occupation-label": "",
+            "others": "",
+            "others-living-label": "",
+            "other-loan-checkbox": "",
+            "other-loan-checkbox-error": "",
+            "other-loan-cost-label": "",
+            "other-loan-cost-error": "",
+            "options": {
+                "occupation": {
+                    "fulltime": "",
+                    "solo": "",
+                    "parttime": "",
+                    "tryout": "",
+                    "pension": "",
+                    "student": "",
+                    "searching": ""
+                },
+                "living": {
+                    "rental": "",
+                    "owned": "",
+                    "house": "",
+                    "other": ""
+                },
+                "rent": {
+                    "span1": "",
+                    "span2": "",
+                    "span3": "",
+                    "span4": ""
+                },
+                "mortgage-loan": {
+                    "span1": "",
+                    "span2": "",
+                    "span3": "",
+                    "span4": "",
+                    "span5": "",
+                    "span6": ""
+                },
+                "other-loan": {
+                    "span1": "",
+                    "span2": "",
+                    "span3": "",
+                    "span4": "",
+                    "span5": "",
+                    "span6": ""
+                }
+            },
+            "owned-label": "",
+            "rent-label": ""
+        },
+        "header": {
+            "header": "",
+            "body": ""
+        },
+        "body": {
+            "header": "",
+            "amount": "",
+            "payback": "",
+            "cost": "",
+            "rent": "",
+            "submit": "",
+            "details": "",
+            "year": "",
+            "show-more": ""
+        },
+        "cost": {
+            "header": "",
+            "rate": "",
+            "effective-rate": ""
+        },
+        "personal": {
+            "header": "",
+            "info": "",
+            "contact-text": ""
+        },
+        "spec": {
+            "count": "",
+            "credit-amount": "",
+            "credit-cost": "",
+            "rate-cost": "",
+            "start-fee": "",
+            "admin-fee": "",
+            "sum-admin-fee": "",
+            "amount": "",
+            "summary": "",
+            "credit-summary": "",
+            "per-month": ""
+        },
+        "terms": {
+            "loan": "",
+            "payback": "",
+            "rate": "",
+            "fee": "",
+            "admin-fee": "",
+            "finish": ""
+        },
+        "terms-apply": {
+            "header": "",
+            "how-to-list": [
+                ""
+            ],
+            "sub-header": "",
+            "terms-list": [
+                ""
+            ]
+        },
+        "summary": {
+            "header": "",
+            "panel": {
+                "header": "",
+                "amount": "",
+                "payback-time": "",
+                "cost-per-month": "",
+                "rate": "",
+                "effective-rate": "",
+                "years": "",
+                "rate-value": ""
+            }
+        },
+        "campaign-panel": {
+            "valid-to": "",
+            "stripe": ""
+        }
+    },
+    "contract": {
+        "overview": {
+            "invoice": {
+                "header1": "",
+                "status": "",
+                "amount": "",
+                "due-date": "",
+                "header2": "",
+                "payment-bg": "",
+                "detail-link": ""
+            },
+            "links": {
+                "invoice": "",
+                "info": ""
+            }
+        },
+        "terms-page": {
+            "header": "",
+            "summary": {
+                "debt-at-date": "",
+                "time-left": "",
+                "status": ""
+            },
+            "terms": {
+                "contract-no": "",
+                "all-contractors": "",
+                "yearly-interest": "",
+                "admin-fee": "",
+                "initial-debt": "",
+                "object": "",
+                "registration-no": "",
+                "merchant": ""
+            }
+        },
+        "invoice-page": {
+            "header": "",
+            "short-summary": {
+                "due-amount": ""
+            },
+            "summary": {
+                "header": "",
+                "status": "",
+                "due-date": "",
+                "bgNumber": "",
+                "ocr": "",
+                "autogiro": {
+                    "active": "",
+                    "withdrawal-info": ""
+                }
+            },
+            "specification": {
+                "header": "",
+                "description": "",
+                "period": "",
+                "amount": ""
+            }
+        },
+        "redeem-info": {
+            "header": "",
+            "info": ""
+        }
+    },
+    "navigation": {
+        "account-overview": "",
+        "invoices": "",
+        "loan": "",
+        "more": "",
+        "customer-support": "",
+        "settings": "",
+        "logout": ""
+    },
+    "footer": {
+        "copyright": "",
+        "block-card": "",
+        "contact": ""
+    },
+    "two-blanks": "finish"
+}
