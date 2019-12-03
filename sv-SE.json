@@ -1,5 +1,4 @@
 {
-    "two-blanks": "  ",
     "blank": " ",
     "update": {
         "MUST_UPDATE": {
@@ -319,13 +318,13 @@
             "withdrawal-fee-only-value": "{{feeValue}}",
             "foreign-currency-withdrawal-fee-value": "{{percentValue}} av uttaget belopp",
             "account-number-description": "Används som OCR-nummer.",
-            "account-name-description": "",
+            "account-name-description": "account-name-description",
             "total-credit-description": "Din nuvarande kreditgräns.",
             "interest-description": "Aktiv om du delbetalar fakturan.",
             "deposit-rate-description": "Ränta på insatta pengar. Kontot omfattas av insättningsgarantin enligt beslut av Riksgälden. Se fullständiga villkor i ",
             "admin-fee-description": "Avgift för administration av dina betalningar.",
-            "yearly-fee-description": "",
-            "extra-card-fee-description": "",
+            "yearly-fee-description": "yearly-fee-description",
+            "extra-card-fee-description": "extra-card-fee-description",
             "withdrawal-fee-description": "Du kan ta ut upp till 5 000 kr per uttag.",
             "exchange-fee-description": "Tillkommer vid uttag av utländsk valuta.",
             "withdrawal-fee-foreign-currency-description": "Avgift om du gör uttag av utländsk valuta från bankomat.",
@@ -650,13 +649,11 @@
     "card": {
         "faq": {
             "header-faq": "Frågor och svar",
-
             "header-section-1": "Pinkod",
             "question-1-1": "Hur ändrar jag pinkod?",
             "question-1-2": "Hur gör jag om jag glömt min pinkod?",
             "answer-to-question-1-2": "Då behöver du beställa ett nytt kort med en ny kod. Kontakta oss på $t(general.phone-link-087014667) så hjälper vi dig.",
             "answer-to-question-1-1": "Du kan ändra din pinkod i närmaste uttagsautomat som är kopplad till Bankomat AB.",
-
             "header-section-2": "Använda kortet utomlands och på internet",
             "question-2-1": "Kan jag handla med kortet utomlands och på internet?",
             "question-2-2": "Kan jag stänga mitt kort för användning utomlands eller på internet?",
@@ -1244,7 +1241,6 @@
                 "description": "Beskrivning",
                 "period": "Period",
                 "amount": "Belopp"
-
             }
         },
         "redeem-info": {
@@ -1265,5 +1261,7 @@
         "copyright": "Ecster",
         "block-card": "Spärra kort",
         "contact": "Kontakt"
-    }
+    },
+    "two-blanks": "  ",
+    "Ny Svensk Text - från poeditor": ""
 }
