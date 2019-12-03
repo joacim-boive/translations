@@ -1,4 +1,5 @@
 {
+    "two-blanks": "  ",
     "blank": " ",
     "update": {
         "MUST_UPDATE": {
@@ -832,7 +833,7 @@
                                 "Låt sidan vara öppen under tiden du loggar in med ditt BankID, annars avbryts inloggningen."
                             ],
                             "body-cancelled": [
-                                "Åtgärden avbruten. Försök igen."
+                                "Åtgärden avbruten. Försök igen."
                             ],
                             "body-already-in-progress": [
                                 "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
@@ -841,7 +842,7 @@
                                 "Internt tekniskt fel. Försök igen."
                             ],
                             "body-user-cancel": [
-                                "Åtgärden avbruten."
+                                "Åtgärden avbruten."
                             ],
                             "body-expired-transaction": [
                                 "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
@@ -865,7 +866,7 @@
                                 "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
                             ],
                             "body-cancelled": [
-                                "Åtgärden avbruten. Försök igen."
+                                "Åtgärden avbruten. Försök igen."
                             ],
                             "body-already-in-progress": [
                                 "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
@@ -874,7 +875,7 @@
                                 "Internt tekniskt fel. Försök igen."
                             ],
                             "body-user-cancel": [
-                                "Åtgärden avbruten."
+                                "Åtgärden avbruten."
                             ],
                             "body-expired-transaction": [
                                 "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
@@ -897,7 +898,7 @@
                                 "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
                             ],
                             "body-cancelled": [
-                                "Åtgärden avbruten. Försök igen."
+                                "Åtgärden avbruten. Försök igen."
                             ],
                             "body-already-in-progress": [
                                 "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
@@ -906,7 +907,7 @@
                                 "Internt tekniskt fel. Försök igen."
                             ],
                             "body-user-cancel": [
-                                "Åtgärden avbruten."
+                                "Åtgärden avbruten."
                             ],
                             "body-expired-transaction": [
                                 "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
@@ -927,7 +928,7 @@
                                 "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
                             ],
                             "body-cancelled": [
-                                "Åtgärden avbruten. Försök igen."
+                                "Åtgärden avbruten. Försök igen."
                             ],
                             "body-already-in-progress": [
                                 "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
@@ -936,7 +937,7 @@
                                 "Internt tekniskt fel. Försök igen."
                             ],
                             "body-user-cancel": [
-                                "Åtgärden avbruten."
+                                "Åtgärden avbruten."
                             ],
                             "body-expired-transaction": [
                                 "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
