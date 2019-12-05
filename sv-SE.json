@@ -2,6 +2,7 @@
     "key-one": "1",
     "key-two": "2"
     "sub": {
-        "one-key": "1"
+        "one-key": "1",
+        "two-key": "1"
     }
 }
