@@ -1,7 +1,7 @@
 {
     "key-one": "1",
     "key-two": "2"
-    "sub":{
-    "one-key": "1"
-}
+    "sub": {
+        "one-key": "1"
+    }
 }
