@@ -1,4 +1,5 @@
 {
+    "is-demo": "yes",
     "key-one": "1",
     "key-two": "2",
     "object": {
