@@ -1,4 +1,9 @@
 {
     "key-one": "US 1",
-    "key-two": ""
+    "key-two": "US 2",
+    "object": {
+        "one-key": "",
+        "two-key": ""
+    },
+    "demo": ""
 }
