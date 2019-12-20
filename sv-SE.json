@@ -1,8 +1,9 @@
-{"demo": "Hello World!",
+{
     "key-one": "1",
     "key-two": "2",
     "object": {
         "one-key": "1",
         "two-key": "1"
-    }
+    },
+    "demo": "Hello World!"
 }
