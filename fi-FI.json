@@ -1,4 +1,9 @@
 {
     "key-one": "FI 1",
-    "key-two": ""
+    "key-two": "",
+    "object": {
+        "one-key": "",
+        "two-key": ""
+    },
+    "demo": "Hellliiiiii Worldiiiiikaaa"
 }
