@@ -5,5 +5,19 @@
         "one-key": "1",
         "two-key": "1"
     },
-    "demo": "Hello World?!"
+    "demo": "Hello World?!",
+    "customer": {
+        "profile": {
+            "info-text": "Handla tryggare på internet. Genom att fylla i ditt mobilnummer här kopplar du ditt kort till Mastercard Secure Code, som innebär att det sker en extra kontroll när du handlar på nätet. Din mejladress behöver vi för att kunna skicka information till dig om ditt konto.",
+            "reminder": {
+                "header": "Vi saknar dina kontaktuppgifter",
+                "info": "Fyll i ditt mobilnummer för att koppla ditt kort till Mastercard Secure Code, då kan du handla säkert på nätet. Din mejladress behöver vi för att kunna skicka information till dig om ditt konto.",
+                "success": {
+                    "header": "Tack!",
+                    "info": "Om du vill ändra dina uppgifter i framtiden så kan du göra det under [link {{profileLink}} 'Profil' ga:profile-page]."
+                }
+            }
+        }
+        }
+        
 }
