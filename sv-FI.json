@@ -1,4 +1,9 @@
 {
     "key-one": "SFI 1",
-    "key-two": ""
+    "key-two": "SFI2",
+    "object": {
+        "one-key": "SFI3",
+        "two-key": "One"
+    },
+    "demo": "Hellliiii"
 }
