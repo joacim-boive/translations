@@ -1,219 +1,25 @@
 {
-    "finska": "Suomi",
-    "blank": " ",
-    "update": {
-        "MUST_UPDATE": {
-            "header": "Information",
-            "body": [
-                "Den här versionen av appen stöds inte längre.",
-                "Vänligen uppdatera till en ny version."
-            ]
-        },
-        "SHOULD_UPDATE": {
-            "header": "Information",
-            "body": [
-                "Det finns en ny version av appen.",
-                "Uppdatera och få tillgång till alla nyheter och förbättringar."
-            ]
-        },
-        "button": {
-            "cancel": "OK",
-            "ok": "Uppdatera"
-        }
-    },
-    "status": {
-        "backend": {
-            "ACS": {
-                "down": {
-                    "header": "Systemunderhåll",
-                    "body": [
-                        "Just nu är våra inloggade tjänster tillfälligt stängda för systemunderhåll. Vi ber om ursäkt för besväret."
-                    ],
-                    "block-card": {
-                        "header": "Spärra ditt kort",
-                        "sweden": {
-                            "label": "Från Sverige",
-                            "phone": "$t(general.phone-link-020411212)"
-                        },
-                        "abroad": {
-                            "label": "Från utlandet",
-                            "phone": "$t(general.phone-link-4684112122)"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "general": {
-        "title": "Inloggad | Ecster",
-        "help": " Hjälp",
-        "current-lang": "Suomeksi",
-        "swedish": "Svenska",
-        "back": "Tillbaka",
-        "cancel": "Avbryt",
-        "download": "Ladda ner",
-        "close": "Stäng",
-        "edit": "Ändra",
-        "save": "Spara",
-        "ok": "Ok",
-        "next": "Nästa",
-        "previous": "Föregående",
-        "ssn": "Personnummer",
-        "total": "Totalt",
-        "address": {
-            "name": "Namn",
-            "address": "Adress",
-            "mobile": "Mobil",
-            "number": "Nummer",
-            "country-code": "Landskod",
-            "email": "E-post",
-            "zip": "Postnummer",
-            "city": "Stad",
-            "country": "Land",
-            "info": "Vi använder din folkbokföringsadress som uppdateras automatiskt om du flyttar"
-        },
-        "exportToExcel": "Exportera till Excel",
-        "validation": {
-            "ssn": "Något gick fel. Kontrollera att du angett ett giltigt personnummer, tio siffror (ååmmdd-xxxx)",
-            "email": "Kolla att e-postadressen blev rätt och försök igen",
-            "phone": "Kolla att numret blev rätt och försök igen",
-            "country-code": "Du måste välja en landskod"
-        },
-        "answer": {
-            "yes": "Ja",
-            "no": "Nej"
-        },
-        "currency": {
-            "se": "kr"
-        },
-        "banks": {
-            "seb": "SEB",
-            "nordea": "Nordea",
-            "swedbank": "Swedbank",
-            "sparbank": "Sparbanken",
-            "handelsbanken": "Handelsbanken"
-        },
-        "error": {
-            "general": {
-                "header": "Åh nej!",
-                "body": "Ett tekniskt fel har inträffat och vi jobbar för fullt på att lösa problemet. Försök gärna igen om en liten stund."
-            }
-        },
-        "support-opening-hours": "Vi har öppet vardagar 9-18 och helger 10-18.",
-        "phone-link-087014667": "[link tel:087014667 '08&#8209;701&nbsp;46&nbsp;67' ga:call-customer-account]",
-        "phone-link-08343550": "[link tel:08343550 '08&#8209;34&nbsp;35&nbsp;50' ga:call-raise-credit]",
-        "phone-link-08330130": "[link tel:08330130 '08&#8209;33&nbsp;01&nbsp;30' ga:call-customer-contract-credit]",
-        "phone-link-020411212": "[link tel:020411212 '020&#8209;41&nbsp;12&nbsp;12' ga:call-block-card]",
-        "phone-link-0771299300": "[link tel:0771299300 '0771&#8209;299300' ga:call-failed-card-activation]",
-        "phone-link-4684112122": "[link tel:+4684112122 '+46&#8209;8&nbsp;411&nbsp;21&nbsp;22' ga:call-block-card-from-abroad]",
-        "phone-link-0104442600": "[link tel:0104442600 '010&nbsp;444&nbsp;2600' ga:call-customer-service]",
-        "bgNumber": {
-            "account": "847-2425",
-            "invoice": "5232-4381"
-        }
-    },
     "account": {
         "error": {
             "ACCOUNT_GET_ACCOUNT_FAILURE": {
-                "header": "Lyckades inte hämta kontoinformation",
-                "body": "ACCOUNT_GET_ACCOUNT_FAILURE"
-            },
-            "ACCOUNT_GET_ACCOUNT_TRANSACTIONS_FAILURE": {
-                "header": "Lyckades inte hämta kontotransaktioner",
-                "body": "ACCOUNT_GET_ACCOUNT_TRANSACTIONS_FAILURE"
+                "body": "ACCOUNT_GET_ACCOUNT_FAILURE",
+                "header": "Lyckades inte hämta kontoinformation"
             },
             "ACCOUNT_GET_ACCOUNT_TERMS_FAILURE": {
-                "header": "Lyckades inte hämta villkoren",
-                "body": "ACCOUNT_GET_ACCOUNT_TERMS_FAILURE"
+                "body": "ACCOUNT_GET_ACCOUNT_TERMS_FAILURE",
+                "header": "Lyckades inte hämta villkoren"
+            },
+            "ACCOUNT_GET_ACCOUNT_TRANSACTIONS_FAILURE": {
+                "body": "ACCOUNT_GET_ACCOUNT_TRANSACTIONS_FAILURE",
+                "header": "Lyckades inte hämta kontotransaktioner"
             }
         },
+        "finnair-bonus-page": "FI only",
         "header": {
             "remaining-credit": "Kvar att handla för",
             "used-credit": "Använd kredit"
         },
-        "overview": {
-            "header": "Översikt",
-            "invoices-header": "Senaste fakturaköp",
-            "offers-panel": {
-                "header": "Är du ute efter en bra deal?",
-                "text": "Spana in aktuella erbjudanden på ecster.se",
-                "linkText": "Till erbjudandesidan"
-            }
-        },
-        "loan": {
-            "type": "Typ",
-            "typeOfLoan": "Privatlån",
-            "applicationDate": "Ansökningsdatum",
-            "amount": "Belopp",
-            "status": {
-                "label": "Status",
-                "PENDING": {
-                    "label": "Behandlas",
-                    "header": "Vi har fått in din ansökan",
-                    "body": [
-                        "Vi går nu igenom din låneansökan och återkommer inom kort med besked via mail.",
-                        "Om du har några frågor är du välkommen att höra av dig till oss på telefon $t(general.phone-link-08330130).",
-                        "Vi har öppet vardagar 9 – 18."
-                    ]
-                },
-                "PAID": {
-                    "label": "Utbetald",
-                    "header": "Ditt lån är nu utbetalt",
-                    "body": [
-                        "Vi har nu tagit emot ditt skuldebrev och betalat ut lånet till konto du angivit. Pengarna kommer in på ditt konto inom en bankdag.",
-                        "Om du har några frågor är du välkommen att höra av dig till oss på telefon $t(general.phone-link-08330130).",
-                        "Vi har öppet vardagar 9 – 18."
-                    ],
-                    "link": "Ladda ner och skriv ut skuldebrev"
-                },
-                "APPROVED": {
-                    "label": "Godkänd",
-                    "header": "Ditt lån är klart och behöver signeras av dig",
-                    "sub-header": "För att få lånet utbetalt till ditt konto:",
-                    "body": [
-                        "<p>Skriv ut ditt skuldebrev</p>",
-                        "<p>Signera och skicka in (portot är förbetalt)</p><div>FRISVAR</div><div>Ecster</div><div>20677247</div><div>110 02 Stockholm</div>",
-                        "<p>Pengarna sätts in på ditt konto inom ca tre bankdagar</p>"
-                    ],
-                    "link": "Ladda ner och skriv ut skuldebrev"
-                },
-                "DENIED": {
-                    "label": "Avslag",
-                    "header": "Vi har tyvärr avslagit din ansökan",
-                    "body": [
-                        "Om du har några frågor är du välkommen att höra av dig till oss på telefon $t(general.phone-link-08330130).",
-                        "Vi har öppet vardagar 9 – 18."
-                    ]
-                }
-            }
-        },
-        "next-payment": {
-            "unpaid": "Obetald",
-            "partly-paid": "Delvis betald",
-            "paid": "Betald",
-            "no-invoice": {
-                "header": "Nästa faktura",
-                "text": "Just nu har du ingen kontofaktura att betala. Vill du göra en extra insättning? Använd uppgifterna nedan."
-            },
-            "zero-invoice": {
-                "header": "Inget att betala",
-                "text": "Du har inget att betala denna månad"
-            },
-            "notification": {
-                "has-paid-too-little": {
-                    "title": "Månadens kontofaktura",
-                    "message": "Du har inte uppnåt fakturans lägsta belopp på {{amount}}."
-                }
-            },
-            "header": "Faktura",
-            "due-date": "Förfallodag",
-            "amount": "Belopp",
-            "amount-paid": "Varav inbetalt",
-            "paid-more": "Inbetalt",
-            "show-details": "Mer information",
-            "bgNumber": "Bankgiro",
-            "ocr": "OCR/kontonummer"
-        },
+        "invoices-page": "FI only",
         "latest-transactions": {
             "header": "Senaste händelser",
             "missing": [
@@ -221,147 +27,177 @@
             ]
         },
         "links": {
-            "transactions": "Kontohändelser",
-            "raise-credit": "Höj kredit",
-            "part-payments": "Betalplaner",
             "account-invoice": "Kontofaktura",
-            "manage-cards": "Hantera kort",
             "apply-for-card": "Beställ kort",
+            "manage-cards": "Hantera kort",
+            "part-payments": "Betalplaner",
+            "raise-credit": "Höj kredit",
             "terms": "Kontoinformation",
-            "validation-message": "Välj nytt kreditbelopp"
+            "transactions": "Kontohändelser"
+        },
+        "next-payment": {
+            "amount": "Belopp",
+            "amount-paid": "Varav inbetalt",
+            "bgNumber": "Bankgiro",
+            "due-date": "Förfallodag",
+            "header": "Faktura",
+            "no-invoice": {
+                "header": "Nästa faktura",
+                "text": "Just nu har du ingen kontofaktura att betala. Vill du göra en extra insättning? Använd uppgifterna nedan."
+            },
+            "notification": {
+                "has-paid-too-little": {
+                    "message": "Du har inte uppnåt fakturans lägsta belopp på {{amount}}.",
+                    "title": "Månadens kontofaktura"
+                }
+            },
+            "ocr": "OCR/kontonummer",
+            "paid-more": "Inbetalt",
+            "show-details": "Mer information",
+            "zero-invoice": {
+                "header": "Inget att betala",
+                "text": "Du har inget att betala denna månad"
+            }
+        },
+        "no-account": {
+            "panel1": {
+                "bullets": [
+                    "Köparskydd ingår",
+                    "Upp till 8 veckors räntefri kredit",
+                    "Dela upp större köp i efterhand"
+                ],
+                "button-text": "Läs mer och ansök",
+                "header": "Ett kort med många poänger",
+                "text": "Ecster-kortet är kopplat till Mastercard och du kan använda det över hela världen. Du får bonuspoäng på varje köp."
+            },
+            "panel2": {
+                "button-text": "Läs mer och ansök",
+                "header": "Låna till stort eller smått",
+                "text": "Ska du renovera, köpa ny soffa eller boka en resa? Låna upp till 200 000 kr och förverkliga din dröm eller idé."
+            }
+        },
+        "overview": {
+            "header": "Översikt",
+            "invoices-header": "Senaste fakturaköp"
         },
         "part-payment": {
-            "amount": "Belopp",
-            "pay-later": "Betala senare",
-            "payment-option": "Betalningsalternativ",
-            "pending": "Under behandling",
-            "payment-plan": "Visa betalplan",
-            "several-months": "{{month}} månader",
-            "singular-month": "1 månad",
-            "rate": "Ränta",
-            "finished": "Slutbetald",
-            "startFee": "Uppläggningsavgift",
-            "adminFee": "Administrativ avgift",
-            "payments": "Antal betalningar",
-            "effectiveRate": "Effektiv ränta",
-            "sumRate": "Summa ränta och avgifter",
-            "total": "Du betalar totalt",
-            "nr-of-payments": "{{payments}} st",
-            "per-month": "{{value}}/mån",
             "admin-fee-per-month": "{{value}}/bet",
+            "adminFee": "Administrativ avgift",
+            "amount": "Belopp",
             "choice-header": "Välj ett alternativ som passar dig",
-            "terms": "Jag godkänner villkoren för valt alternativ: ",
-            "submit": "Slutför",
-            "no-choice": "Inget alternativ valt",
-            "total-ongoing": "Totalt pågående betalningar",
-            "part-payments": "Delbetalningar",
-            "part-payment": "Delbetalning",
+            "click-to-show": "Klicka på en transaktion för att se olika betalningsalternativ.",
+            "effectiveRate": "Effektiv ränta",
+            "fees": "Administrativ avgift",
+            "finished": "Slutbetald",
             "future-date": "Betala senare",
+            "left": "Kvar att betala",
+            "monthly-trans": "Månadens köp",
             "months-left": "{{count}} månad kvar",
             "months-left_plural": "{{count}} månader kvar",
-            "left": "Kvar att betala",
-            "purchase-date": "Inköpsdatum",
-            "fees": "Administrativ avgift",
-            "possible-header": "Betala i egen takt",
-            "possible-text": "Köp över 2000 kr kan du skjuta fram, köp över 4000 kr kan du även dela upp till mindre betalningar.",
-            "monthly-trans": "Månadens köp",
-            "click-to-show": "Klicka på en transaktion för att se olika betalningsalternativ.",
-            "ongoing": "Pågående betalningar",
+            "no-choice": "Inget alternativ valt",
             "no-ongoing": "Du har inga pågående betalningar",
             "no-possible": "Just nu har du inga köp som kan skjutas fram eller delas upp.",
+            "nr-of-payments": "{{payments}} st",
+            "ongoing": "Pågående betalningar",
+            "part-payment": "Delbetalning",
+            "part-payments": "Delbetalningar",
+            "pay-later": "Betala senare",
+            "payment-option": "Betalningsalternativ",
+            "payment-plan": "Visa betalplan",
+            "payments": "Antal betalningar",
+            "pending": "Under behandling",
+            "per-month": "{{value}}/mån",
+            "possible-header": "Betala i egen takt",
+            "possible-text": "Köp över 2000 kr kan du skjuta fram, köp över 4000 kr kan du även dela upp till mindre betalningar.",
+            "purchase-date": "Inköpsdatum",
+            "rate": "Ränta",
+            "several-months": "{{month}} månader",
+            "singular-month": "1 månad",
+            "startFee": "Uppläggningsavgift",
+            "submit": "Slutför",
             "success": {
-                "header": "Klart!",
+                "back-link": "Tillbaka till översikten",
                 "body": "Betalningen för ditt köp hos {{store}} på {{amount}} har nu delats upp.",
-                "bodyPayLater": "Betalningen för ditt köp hos {{store}} på {{amount}} är nu framskjuten.",
-                "body2PayLater": "Inom kort kan du se din betalning under ",
                 "body2": "Inom kort kan du se din delbetalning under ",
-                "payment-link": "Betalplaner",
-                "back-link": "Tillbaka till översikten"
-            }
+                "body2PayLater": "Inom kort kan du se din betalning under ",
+                "bodyPayLater": "Betalningen för ditt köp hos {{store}} på {{amount}} är nu framskjuten.",
+                "header": "Klart!",
+                "payment-link": "Betalplaner"
+            },
+            "sumRate": "Summa ränta och avgifter",
+            "terms": "Jag godkänner villkoren för valt alternativ: ",
+            "total": "Du betalar totalt",
+            "total-ongoing": "Totalt pågående betalningar"
+        },
+        "raise-credit": {
+            "apply": "Ansök",
+            "apply-note": "Genom att klicka på “Ansök” godkänner jag villkoren ovan.",
+            "approved-header": "Klart!",
+            "approved-message": "Din kredithöjning till {{value}} är godkänd och din nya kreditgräns har uppdaterats under kontoinformation.",
+            "back-to-overview": "Tillbaka till översikten",
+            "current-credit-limit": "Nuvarande kreditgräns",
+            "denied-header": "Åh nej!",
+            "denied-message": [
+                "Din ansökan kunde tyvärr inte godkännas. Har du frågor kan du ringa oss på $t(general.phone-link-08343550).",
+                "$t(general.support-opening-hours)"
+            ],
+            "error": {
+                "communication": {
+                    "body": "Ett tekniskt fel har inträffat och din ansökan om kredithöjning kunde inte genomföras. Försök gärna igen om en liten stund.",
+                    "header": "Åh nej!"
+                }
+            },
+            "header": "Utöka ditt köputrymme",
+            "intro": "Här kan du ansöka om höjd kreditgräns. Du får svar direkt. Ingen extra avgift eller ränta tillkommer.",
+            "max-credit-limit": "Maximal kreditgräns",
+            "new-credit-limit": "Ny kreditgräns",
+            "not-allowed": {
+                "alert-header": "Maximal kreditgräns",
+                "alert-message": "Du har redan uppnått din maximala kreditgräns och kan inte ansöka om kredithöjning.",
+                "info-message": "Du kan inte ansöka om kredithöjning."
+            },
+            "page-header": "Höj kredit",
+            "pending-header": "Vi behöver titta närmare på din ansökan",
+            "pending-message": [
+                "Vi behöver fler uppgifter från dig för att kunna ta ett beslut.",
+                "Ring oss på $t(general.phone-link-08343550) och uppge ärendenummer <strong>{{caseNumber}}</strong>",
+                "$t(general.support-opening-hours)"
+            ],
+            "processing-message": "Vi behandlar din ansökan...",
+            "processing-message-uc": "Kontaktar UC...",
+            "select-amount": "Välj belopp",
+            "terms": "Grundkrav",
+            "terms-conditions": "Här kan du ladda ner dina [link-new-win {{url}} 'fullständiga kontovillkor (pdf)' ga:raise-credit-terms-conditions]",
+            "terms-description": "När du ansöker om en högre kreditgräns tar vi en kreditupplysning och du behöver uppfylla ett antal grundkrav.",
+            "terms-items": [
+                "Du är över 18 år",
+                "Du har en fast inkomst",
+                "Du har inga betalningsanmärkningar"
+            ],
+            "validation-message": "Välj nytt kreditbelopp"
+        },
+        "sales-panel": {
+            "body": "Handla världen över. Ta del av fler förmåner och försäkringar med ett flexibelt kreditkort.",
+            "button": "Läs mer och beställ",
+            "header": "Skaffa ett kort till ditt konto"
         },
         "summary": {
             "left": "Kvar att handla för",
-            "used": "Använd kredit",
-            "total": "Total kredit"
-        },
-        "transactions": {
-            "page-header": "Kontohändelser",
-            "reserved-amount": "Reserverat belopp",
-            "show-more": "Se fler",
-            "no-transactions": "Det finns inga kontohändelser att visa. Du kan se händelser upp till 24 månader.",
-            "no-more-transactions": "Det finns inga fler kontohändelser. Du kan se händelser upp till 24 månader.",
-            "exchange-rate": "kurs"
-        },
-        "sales-panel": {
-            "header": "Skaffa ett kort till ditt konto",
-            "body": "Handla världen över. Ta del av fler förmåner och försäkringar med ett flexibelt kreditkort.",
-            "button": "Läs mer och beställ"
-        },
-        "terms": {
-            "account-terms": "Kontovillkor",
-            "terms-information": "Kontoinformation",
-            "account-number": "Kontonummer",
-            "account-name": "Kontonamn",
-            "total-credit": "Total kredit",
-            "interest": "Ränta",
-            "deposit-rate": "Inlåningsränta",
-            "admin-fee": "Administrativ avgift",
-            "yearly-fee": "Årsavgift kort",
-            "extra-card-fee": "Extrakortsavgift",
-            "withdrawal-fee-cash": "Kontantuttagsavgift",
-            "withdrawal-fee-atm": "Bankomatuttagsavgift",
-            "withdrawal-fee-foreign-currency": "Kontantuttag i utländsk valuta",
-            "withdrawal-fee": "Bankomat- och kontantuttagsavgift (gäller även utomlands)",
-            "exchange-fee": "Valutaväxlingsavgift",
-            "late-payment-fee": "Förseningsavgift",
-            "overdraft-fee": "Övertrasseringsavgift",
-            "account-terms-pdf": "Fullständiga villkor (pdf)",
-            "account-agreement-pdf": "Kontoavtal (pdf)",
-            "atm-withdrawal-fee-value": "{{percentValue}} av uttaget belopp, minst {{feeValue}}",
-            "withdrawal-fee-value": "{{percentValue}} av uttaget belopp, minst {{feeValue}}",
-            "withdrawal-fee-only-value": "{{feeValue}}",
-            "foreign-currency-withdrawal-fee-value": "{{percentValue}} av uttaget belopp",
-            "account-number-description": "Används som OCR-nummer.",
-            "account-name-description": "",
-            "total-credit-description": "Din nuvarande kreditgräns.",
-            "interest-description": "Aktiv om du delbetalar fakturan.",
-            "deposit-rate-description": "Ränta på insatta pengar. Kontot omfattas av insättningsgarantin enligt beslut av Riksgälden. Se fullständiga villkor i ",
-            "admin-fee-description": "Avgift för administration av dina betalningar.",
-            "yearly-fee-description": "",
-            "extra-card-fee-description": "",
-            "withdrawal-fee-description": "Du kan ta ut upp till 5 000 kr per uttag.",
-            "exchange-fee-description": "Tillkommer vid uttag av utländsk valuta.",
-            "withdrawal-fee-foreign-currency-description": "Avgift om du gör uttag av utländsk valuta från bankomat.",
-            "late-payment-fee-description": "Debiteras om betalning inte kommit in vid förfallodag.",
-            "overdraft-fee-description": "Debiteras om kontot övertrasseras.",
-            "account-terms-pdf-description": "Samtliga villkor som gäller för ditt konto.",
-            "terms-error": "Dina kontovillkor kan inte visas just nu och felet är helt och hållet vårt."
+            "total": "Total kredit",
+            "used": "Använd kredit"
         },
         "terminate": {
-            "terminate-account": "Avsluta konto",
-            "terminate-my-account": "Avsluta mitt konto",
+            "confirm-cancel": "Avbryt",
+            "confirm-header": "Avsluta konto",
+            "confirm-ok": "Ja, avsluta konto",
+            "confirm-text": "Är du helt säker?",
+            "failure": {
+                "back": "Tillbaka till kontoöversikt",
+                "header": "Kontot kunde inte avslutas",
+                "message": "Ditt konto kunde inte avslutas. Ring oss på $t(general.phone-link-087014667) så hjälper vi dig!"
+            },
             "header": "Hjälp oss bli bättre",
             "info-text": "Berätta gärna varför du vill avsluta ditt konto",
-            "q1": "Har betalat av min skuld",
-            "q2": "Använder inte kontot längre",
-            "q3": "Vill samla allt på ett annat konto",
-            "q4": "Missnöjd med era villkor",
-            "q5": "Missnöjd med er service",
-            "q6": "Annan anledning",
-            "success": {
-                "header": "Konto avslutat",
-                "message": "Ditt konto är nu avslutat och kan inte längre användas för köp. När din eventuella skuld är slutbetald kommer kontot att försvinna. Välkommen tillbaka!",
-                "back": "Tillbaka"
-            },
-            "failure": {
-                "header": "Kontot kunde inte avslutas",
-                "message": "Ditt konto kunde inte avslutas. Ring oss på $t(general.phone-link-087014667) så hjälper vi dig!",
-                "back": "Tillbaka till kontoöversikt"
-            },
-            "confirm-header": "Avsluta konto",
-            "confirm-text": "Är du helt säker?",
-            "confirm-ok": "Ja, avsluta konto",
-            "confirm-cancel": "Avbryt",
             "intro": {
                 "info-text": [
                     "Här kan du själv avsluta ditt konto. Tänk på att när ditt konto är avslutat så kan du inte göra fler köp eller nyttja din bonus.",
@@ -372,132 +208,371 @@
             "overdrawn": {
                 "header": "Din kreditgräns är överskriden",
                 "info": "Vänligen betala in minst {{amount}} till bankgiro: $t(general.bgNumber.account), OCR-nummer: {{accountNumber}}"
-            }
-        },
-        "raise-credit": {
-            "page-header": "Höj kredit",
-            "header": "Utöka ditt köputrymme",
-            "intro": "Här kan du ansöka om höjd kreditgräns. Du får svar direkt. Ingen extra avgift eller ränta tillkommer.",
-            "current-credit-limit": "Nuvarande kreditgräns",
-            "max-credit-limit": "Maximal kreditgräns",
-            "new-credit-limit": "Ny kreditgräns",
-            "select-amount": "Välj belopp",
-            "terms": "Grundkrav",
-            "terms-description": "När du ansöker om en högre kreditgräns tar vi en kreditupplysning och du behöver uppfylla ett antal grundkrav.",
-            "terms-items": [
-                "Du är över 18 år",
-                "Du har en fast inkomst",
-                "Du har inga betalningsanmärkningar"
-            ],
-            "terms-conditions": "Här kan du ladda ner dina [link-new-win {{url}} 'fullständiga kontovillkor (pdf)' ga:raise-credit-terms-conditions]",
-            "apply-note": "Genom att klicka på “Ansök” godkänner jag villkoren ovan.",
-            "apply": "Ansök",
-            "processing-message": "Vi behandlar din ansökan...",
-            "processing-message-uc": "Kontaktar UC...",
-            "not-allowed": {
-                "alert-header": "Maximal kreditgräns",
-                "alert-message": "Du har redan uppnått din maximala kreditgräns och kan inte ansöka om kredithöjning.",
-                "info-message": "Du kan inte ansöka om kredithöjning."
             },
-            "approved-header": "Klart!",
-            "approved-message": "Din kredithöjning till {{value}} är godkänd och din nya kreditgräns har uppdaterats under kontoinformation.",
-            "pending-header": "Vi behöver titta närmare på din ansökan",
-            "pending-message": [
-                "Vi behöver fler uppgifter från dig för att kunna ta ett beslut.",
-                "Ring oss på $t(general.phone-link-08343550) och uppge ärendenummer <strong>{{caseNumber}}</strong>",
-                "$t(general.support-opening-hours)"
-            ],
-            "denied-header": "Åh nej!",
-            "denied-message": [
-                "Din ansökan kunde tyvärr inte godkännas. Har du frågor kan du ringa oss på $t(general.phone-link-08343550).",
-                "$t(general.support-opening-hours)"
-            ],
-            "error": {
-                "communication": {
-                    "header": "Åh nej!",
-                    "body": "Ett tekniskt fel har inträffat och din ansökan om kredithöjning kunde inte genomföras. Försök gärna igen om en liten stund."
-                }
+            "q1": "Har betalat av min skuld",
+            "q2": "Använder inte kontot längre",
+            "q3": "Vill samla allt på ett annat konto",
+            "q4": "Missnöjd med era villkor",
+            "q5": "Missnöjd med er service",
+            "q6": "Annan anledning",
+            "success": {
+                "back": "Tillbaka",
+                "header": "Konto avslutat",
+                "message": "Ditt konto är nu avslutat och kan inte längre användas för köp. När din eventuella skuld är slutbetald kommer kontot att försvinna. Välkommen tillbaka!"
             },
-            "back-to-overview": "Tillbaka till översikten"
-        },
-        "no-account": {
-            "panel1": {
-                "header": "Ett kort med många poänger",
-                "text": "Ecster-kortet är kopplat till Mastercard och du kan använda det över hela världen. Du får bonuspoäng på varje köp.",
-                "bullets": [
-                    "Köparskydd ingår",
-                    "Upp till 8 veckors räntefri kredit",
-                    "Dela upp större köp i efterhand"
-                ],
-                "button-text": "Läs mer och ansök"
-            },
-            "panel2": {
-                "header": "Låna till stort eller smått",
-                "text": "Ska du renovera, köpa ny soffa eller boka en resa? Låna upp till 200 000 kr och förverkliga din dröm eller idé.",
-                "button-text": "Läs mer och ansök"
-            }
+            "terminate-account": "Avsluta konto",
+            "terminate-my-account": "Avsluta mitt konto"
         },
         "terminated-account": {
-            "header": "Kvarstående skuld",
-            "short-info": "Det här kontot har avslutats och kan inte längre användas för köp.",
-            "long-info": [
-                "$t(account.terminated-account.short-info)",
+            "debt-info": [
+                "$t(account.terminated-account.terminated-info)",
                 "När din skuld är avbetald kommer kontot att tas bort."
-            ]
+            ],
+            "label-debt": "Kvarstående skuld",
+            "label-refundable": "Tillgodo",
+            "refundable-info": [
+                "$t(account.terminated-account.terminated-info)",
+                "För utbetalning av tillgodo ber vi dig kontakta kundservice på $t(general.phone-link-087014667)."
+            ],
+            "terminated-info": "Det här kontot har avslutats och kan inte längre användas för köp."
         },
-        "invoices-page": {
-            "page-header": "Kontofakturor",
-            "amortization-free-month": {
-                "header": "Amorteringsfri månad",
-                "info": [
-                    "Här kan du ansöka om amorteringsfri månad. Har du en pågående kampanj och vill nyttja en amorteringsfri månad tillkommer ränta på din nuvarande betalplan."
-                ],
-                "bullets": [
-                    "Du kan ansöka två gånger per år",
-                    "Du kan inte ansöka om två månader efter varandra",
-                    "Godkänd ansökan kostar 5 EUR"
-
-                ]
-            }
+        "terms": {
+            "account-agreement-pdf": "Kontoavtal (pdf)",
+            "account-name": "Kontonamn",
+            "account-name-description": "",
+            "account-number": "Kontonummer",
+            "account-number-description": "Används som OCR-nummer.",
+            "account-terms": "Kontovillkor",
+            "account-terms-pdf": "Fullständiga villkor (pdf)",
+            "account-terms-pdf-description": "Samtliga villkor som gäller för ditt konto.",
+            "admin-fee": "Administrativ avgift",
+            "admin-fee-description": "Avgift för administration av dina betalningar.",
+            "atm-withdrawal-fee-value": "{{percentValue}} av uttaget belopp, minst {{feeValue}}",
+            "deposit-rate": "Inlåningsränta",
+            "deposit-rate-description": "Ränta på insatta pengar. Kontot omfattas av insättningsgarantin enligt beslut av Riksgälden. Se fullständiga villkor i ",
+            "exchange-fee": "Valutaväxlingsavgift",
+            "exchange-fee-description": "Tillkommer vid uttag av utländsk valuta.",
+            "extra-card-fee": "Extrakortsavgift",
+            "extra-card-fee-description": "",
+            "foreign-currency-withdrawal-fee-value": "{{percentValue}} av uttaget belopp",
+            "interest": "Ränta",
+            "interest-description": "Aktiv om du delbetalar fakturan.",
+            "late-payment-fee": "Förseningsavgift",
+            "late-payment-fee-description": "Debiteras om betalning inte kommit in vid förfallodag.",
+            "overdraft-fee": "Övertrasseringsavgift",
+            "overdraft-fee-description": "Debiteras om kontot övertrasseras.",
+            "terms-error": "Dina kontovillkor kan inte visas just nu och felet är helt och hållet vårt.",
+            "terms-information": "Kontoinformation",
+            "total-credit": "Total kredit",
+            "total-credit-description": "Din nuvarande kreditgräns.",
+            "withdrawal-fee": "Bankomat- och kontantuttagsavgift (gäller även utomlands)",
+            "withdrawal-fee-atm": "Bankomatuttagsavgift",
+            "withdrawal-fee-cash": "Kontantuttagsavgift",
+            "withdrawal-fee-description": "Du kan ta ut upp till 5 000 kr per uttag.",
+            "withdrawal-fee-foreign-currency": "Kontantuttag i utländsk valuta",
+            "withdrawal-fee-foreign-currency-description": "Avgift om du gör uttag av utländsk valuta från bankomat.",
+            "withdrawal-fee-only-value": "{{feeValue}}",
+            "withdrawal-fee-value": "{{percentValue}} av uttaget belopp, minst {{feeValue}}",
+            "yearly-fee": "Årsavgift kort",
+            "yearly-fee-description": ""
         },
-        "campaign-purchases-page": {
-            "page-header": "Kampanjköp"
+        "transactions": {
+            "exchange-rate": "kurs",
+            "no-more-transactions": "Det finns inga fler kontohändelser. Du kan se händelser upp till 24 månader.",
+            "no-transactions": "Det finns inga kontohändelser att visa. Du kan se händelser upp till 24 månader.",
+            "page-header": "Kontohändelser",
+            "reserved-amount": "Reserverat belopp",
+            "show-more": "Se fler"
         },
-        "finnair-bonus-page": {
-            "page-header": "Finnair-Plus Bonus"
-        },
-        "transfer-money-page": {
-            "page-header": "Överför pengar"
-        }
-
+        "transfer-money-page": "FI only"
     },
     "authentication": {
+        "after-logout": {
+            "logged-out-msg": "Tack för besöket. Du är nu utloggad.",
+            "login-link": "Logga in igen"
+        },
+        "login": {
+            "fi": "FI only",
+            "se": {
+                "desktop": {
+                    "header": "Logga in",
+                    "login-button": "Mobilt BankID",
+                    "login-button-bid": "Logga in med BankID",
+                    "ssn-label": "Personnummer",
+                    "ssn-placeholder": "ÅÅMMDD-XXXX"
+                },
+                "in-progress": {
+                    "desktop": {
+                        "other-device": {
+                            "body": [
+                                "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
+                            ],
+                            "body-already-in-progress": [
+                                "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
+                            ],
+                            "body-cancelled": [
+                                "Åtgärden avbruten. Försök igen."
+                            ],
+                            "body-certificate-error": [
+                                "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
+                            ],
+                            "body-expired-transaction": [
+                                "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
+                            ],
+                            "body-internal-error": [
+                                "Internt tekniskt fel. Försök igen."
+                            ],
+                            "body-start-failed": [
+                                "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:desktop-other-device-install-bankid] [icon-external-link e-green]."
+                            ],
+                            "body-user-cancel": [
+                                "Åtgärden avbruten."
+                            ],
+                            "body-user-sign": [
+                                "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
+                            ],
+                            "header": "Öppna Mobilt BankID"
+                        },
+                        "this-device": {
+                            "body": [
+                                "Låt sidan vara öppen under tiden du loggar in med ditt BankID, annars avbryts inloggningen."
+                            ],
+                            "body-already-in-progress": [
+                                "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
+                            ],
+                            "body-cancelled": [
+                                "Åtgärden avbruten. Försök igen."
+                            ],
+                            "body-certificate-error": [
+                                "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
+                            ],
+                            "body-expired-transaction": [
+                                "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
+                            ],
+                            "body-internal-error": [
+                                "Internt tekniskt fel. Försök igen."
+                            ],
+                            "body-start-failed": [
+                                "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:desktop-this-device-install-bankid] [icon-external-link e-green]."
+                            ],
+                            "body-started": [
+                                "Söker efter BankID, det kan ta en liten stund… Om det har gått några sekunder och inget BankID har hittats har du sannolikt inget BankID som går att använda för den aktuella identifieringen/underskriften i den här datorn. Om du har ett BankID-kort, sätt in det i kortläsaren. Om du inte har något BankID kan du hämta ett hos din internetbank."
+                            ],
+                            "body-user-cancel": [
+                                "Åtgärden avbruten."
+                            ],
+                            "body-user-sign": [
+                                "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
+                            ],
+                            "header": "Öppna BankID"
+                        }
+                    },
+                    "manual": {
+                        "button": "Starta BankID",
+                        "info": "Om inte BankID öppnas, klicka här"
+                    },
+                    "touch": {
+                        "other-device": {
+                            "body": [
+                                "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
+                            ],
+                            "body-already-in-progress": [
+                                "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
+                            ],
+                            "body-cancelled": [
+                                "Åtgärden avbruten. Försök igen."
+                            ],
+                            "body-certificate-error": [
+                                "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
+                            ],
+                            "body-expired-transaction": [
+                                "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
+                            ],
+                            "body-internal-error": [
+                                "Internt tekniskt fel. Försök igen."
+                            ],
+                            "body-start-failed": [
+                                "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:touch-other-device-install-bankid]  [icon-external-link e-green]."
+                            ],
+                            "body-user-cancel": [
+                                "Åtgärden avbruten."
+                            ],
+                            "body-user-sign": [
+                                "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
+                            ],
+                            "header": "Öppna Mobilt BankID"
+                        },
+                        "this-device": {
+                            "body": [
+                                "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
+                            ],
+                            "body-already-in-progress": [
+                                "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
+                            ],
+                            "body-cancelled": [
+                                "Åtgärden avbruten. Försök igen."
+                            ],
+                            "body-certificate-error": [
+                                "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
+                            ],
+                            "body-expired-transaction": [
+                                "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
+                            ],
+                            "body-internal-error": [
+                                "Internt tekniskt fel. Försök igen."
+                            ],
+                            "body-start-failed": [
+                                "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:touch-this-device-install-bankid] [icon-external-link e-green]."
+                            ],
+                            "body-user-cancel": [
+                                "Åtgärden avbruten."
+                            ],
+                            "body-user-sign": [
+                                "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
+                            ],
+                            "header": "Öppna Mobilt BankID"
+                        }
+                    }
+                },
+                "touch": {
+                    "mbid-other-device": {
+                        "header": "Logga in",
+                        "login-button": "Logga in",
+                        "ssn-label": "Personnummer",
+                        "ssn-placeholder": "ÅÅMMDD-XXXX",
+                        "sub-header": "med Mobilt BankID från annan enhet",
+                        "to-mbid-this-device-button": "Mobilt BankID på denna enhet"
+                    },
+                    "mbid-this-device": {
+                        "header": "Logga in",
+                        "login-button": "Mobilt BankID",
+                        "to-mbid-button": "Mobilt BankID från annan enhet"
+                    }
+                }
+            }
+        },
         "not-a-customer": {
             "header": "Ursäkta att vi inte kunde hjälpa till",
             "info": [
-                "Endast Ecster-kunder som har ett konto eller ett kort kan logga in. Har du en avbetalning eller lån? Ring oss på $t(general.phone-link-08330130) så hjälper vi dig. Vi har öppet vardagar 9-18.",
-                "Nyfiken på att skaffa ett Ecster-kort? Ingen årsavgift, du får bonus på alla köp och kan välja att dela upp betalningen i efterhand."
+                "Tyvärr verkar du inte ha något kreditkort eller lån hos oss och kan därför inte logga in.",
+                "Nyfiken på att skaffa ett Ecster-kort eller låna pengar? Läs mer om våra tjänster på [link-new-win https://www.ecster.se 'ecster.se' ga:not-a-customer-goto-ecster-se]"
+            ]
+        }
+    },
+    "blank": " ",
+    "card": {
+        "activate-card": {
+            "button": "Aktivera",
+            "failure": {
+                "header": "Åh nej!",
+                "info": "Kortet kunde inte aktiveras. Ring oss gärna på $t(general.phone-link-0771299300) så hjälper vi till."
+            },
+            "header": "Aktivera ditt kort",
+            "info": "Ange CVC-koden som står på kortets baksida för att aktivera kortet.",
+            "input-label": "CVC-kod",
+            "success": {
+                "header": "Ditt kort är aktiverat",
+                "info": "Ditt kort är aktiverat och klart att använda."
+            },
+            "validation-message": "Ange tre siffror",
+            "wrong-cvc": "Felaktig kod. Vänligen försök igen."
+        },
+        "apply-for-card": {
+            "button": "Beställ",
+            "confirm-dialog": {
+                "header": "Beställ ett kort",
+                "ok-button": "Ok, skicka",
+                "text": "När du skickat beställningen kommer ditt kort att präglas och skickas till dig, det tar ca en vecka. Pinkoden kommer i ett separat kuvert"
+            },
+            "credit-limit": "Kreditgräns",
+            "failure": {
+                "header": "Åh nej!",
+                "info": "Din beställning kunde inte genomföras. Har du frågor kan du ringa oss på $t(general.phone-link-08343550). Vi har öppet vardagar 9-18"
+            },
+            "header": "Koppla ett kort till ditt konto",
+            "info": "När du ansluter ett kreditkort till ditt konto kan du använda din kontokredit på fler ställen. Kortet är kopplat till Mastercard och funkar över hela världen.",
+            "info-list": [
+                "Upp till 8 veckors räntefri kredit",
+                "Köparskydd ingår - trygghet när du handlar",
+                "Dela upp större köp i efterhand"
             ],
-            "link": "Läs mer om Ecster-kortet"
+            "pending": {
+                "header": "Ditt beställda kort är på väg",
+                "header_plural": "Dina beställda kort är på väg",
+                "info": "Kortet landar i din brevlåda inom ett par dagar, din pinkod kommer i ett separat brev. Innan du börjar använda kortet måste du logga in och aktivera det här.",
+                "info_plural": "Korten landar i din brevlåda inom ett par dagar, pinkoderna kommer i separata brev. Innan du börjar använda korten måste du logga in och aktivera dem här."
+            },
+            "sub-header1": "Villkor",
+            "sub-header2": "Förmåner",
+            "success": {
+                "header": "Tack för din beställning",
+                "info": "Så snart du har fått hem ditt kort, kan du logga in och aktivera det här."
+            },
+            "terms-info": "Samtliga villkor hittar du i dina [link-new-win {{termsURL}} 'kontovillkor' ga:account-terms]",
+            "yearly-fee": "Årsavgift"
+        },
+        "apply-for-extra-card": {
+            "button": "Ladda ner ansökan (pdf)",
+            "header": "Beställ ett extrakort",
+            "info": "Beställ extrakort till någon i familjen. Då kan ni handla och samla bonuspoäng från flera kort kopplade till samma konto. Skriv ut och fyll i ansökningsblanketten och skicka till Ecster, Box 2169, 103 14 Stockholm"
+        },
+        "block-card": {
+            "header": "Spärra ditt kort",
+            "info": "Ring $t(general.phone-link-020411212). Vi har öppet dygnet runt. Om du befinner dig utomlands så ringer du $t(general.phone-link-4684112122)."
+        },
+        "card-banner": {
+            "header": "Skaffa Ecster-kortet!",
+            "link": "Ansök om kortet",
+            "text": "Samla poäng och handla i hela världen!"
+        },
+        "faq": {
+            "answer-to-question-1-1": "Du kan ändra din pinkod i närmaste uttagsautomat som är kopplad till Bankomat AB.",
+            "answer-to-question-1-2": "Då behöver du beställa ett nytt kort med en ny kod. Kontakta oss på $t(general.phone-link-087014667) så hjälper vi dig.",
+            "answer-to-question-2-1": "Absolut! Som standard är kortet öppet för användning utomlands och på internet.",
+            "answer-to-question-2-2": "Har du ett kreditkort handlar du säkert i hela världen, både på nätet och i fysisk butik. Våra kreditkort övervakas av ett säkerhetssystem som gör allt för att hindra bedrägliga transaktioner. Om du vill stänga kortet, kontakta oss på $t(general.phone-link-087014667) så hjälper vi dig.",
+            "header-faq": "Frågor och svar",
+            "header-section-1": "Pinkod",
+            "header-section-2": "Använda kortet utomlands och på internet",
+            "question-1-1": "Hur ändrar jag pinkod?",
+            "question-1-2": "Hur gör jag om jag glömt min pinkod?",
+            "question-2-1": "Kan jag handla med kortet utomlands och på internet?",
+            "question-2-2": "Kan jag stänga mitt kort för användning utomlands eller på internet?"
+        },
+        "general": {
+            "activate": "Aktivera",
+            "active": "Aktivt",
+            "card-holder": "Kortinnehavare",
+            "card-number": "Kortnummer",
+            "inactive": "Inaktivt",
+            "status": "Status",
+            "valid-to": "Giltigt t.o.m."
+        },
+        "manage-card": {
+            "page-header": "Hantera kort",
+            "page-header-no-card": "Beställ kort"
+        },
+        "show-card": {
+            "ACTIVE": "Aktivt",
+            "BLOCKED": "Spärrat",
+            "default-card-name": "Ecsterkort",
+            "INACTIVE": "Ej aktiverat",
+            "TEMPORARILY_BLOCKED": "Tillfälligt spärrat"
+        },
+        "show-extra-card": {
+            "change-button": "Ändra",
+            "header": "Befintliga extrakort",
+            "pending": {
+                "header": "Din beställning av extrakort behandlas",
+                "info": "$t(card.apply-for-card.pending.info)"
+            }
         }
     },
     "common": {
-        "under-construction": {
-            "header": "Sidan är inte riktigt färdigslipad än",
-            "info": "Vi arbetar för fullt med utvecklingen. Inom kort kommer du att kunna se mer information här."
-        },
-        "onboarding": {
-            "header": "Hej {{firstName}}, välkommen till Ecster!",
-            "button-text": "Ok, då kör vi",
-            "bullets": [
-                "Här kan du bland annat: ",
-                "[icon-camera e-green] Betala fakturan - scanna med din bankapp",
-                "[icon-tag e-green] Se aktuella erbjudanden",
-                "[icon-layers e-green] Dela upp kortköp i efterhand",
-                "[icon-upload e-green] Höja kreditgränsen och få svar direkt"
-            ]
-        },
         "404": {
+            "back-link": {
+                "logged-in": "Till översikten",
+                "not-logged-in": "Till inloggningen"
+            },
             "header": "Hoppla!",
             "info": {
                 "logged-in": [
@@ -507,279 +582,253 @@
                 "not-logged-in": [
                     "Något gick fel, den här sidan kunde vi inte hitta!"
                 ]
+            }
+        },
+        "filmstaden-banner": {
+            "header": "Gå på bio för 99 kr!",
+            "link": "Köp biljetter",
+            "text": "Luta dig tillbaka framför en bra film i biosalongens mysiga atmosfär!"
+        },
+        "good-deal-banner": {
+            "header": "Vill du ha en bra deal?",
+            "link": "Till våra erbjudanden",
+            "text": "Spana in våra erbjudanden på [link-new-win https://www.ecster.se/erbjudande 'ecster.se']"
+        },
+        "onboarding": {
+            "bullets": [
+                "Här kan du bland annat: ",
+                "[icon-camera e-green] Betala fakturan - scanna med din bankapp",
+                "[icon-tag e-green] Se aktuella erbjudanden",
+                "[icon-layers e-green] Dela upp kortköp i efterhand",
+                "[icon-upload e-green] Höja kreditgränsen och få svar direkt"
+            ],
+            "button-text": "Ok, då kör vi",
+            "header": "Hej {{firstName}}, välkommen till Ecster!",
+            "header-no-name": "Hej och välkommen till Ecster!"
+        },
+        "under-construction": {
+            "header": "Sidan är inte riktigt färdigslipad än",
+            "info": "Vi arbetar för fullt med utvecklingen. Inom kort kommer du att kunna se mer information här."
+        },
+        "warning": {
+            "account-unavailable": {
+                "header": "Oj, något gick fel",
+                "info": "Om du har ett konto, delbetalning eller kort hos oss kan vi tyvärr inte visa någon information just nu."
             },
-            "back-link": {
-                "logged-in": "Till översikten",
-                "not-logged-in": "Till inloggningen"
+            "contract-unavailable": {
+                "header": "Oj, något gick fel",
+                "info": "Om du har ett lån hos oss eller har handlat på faktura hos e-butiker som samarbetar med Ecster kan vi tyvärr inte visa någon information just nu."
             }
         }
     },
-    "invoice": {
-        "general": {
-            "due-date": "Förfallodag"
-        },
-        "invoice-values": {
-            "due-amount": "Belopp att betala",
-            "bg-number": "Bankgiro",
-            "tooltip": {
-                "copy-amount": "Kopiera belopp",
-                "copy-due-date": "Kopiera förfallodatum",
-                "copy-bg-number": "Kopiera bg-nummer",
-                "copy-ocr-number": "Kopiera OCR-nummer",
-                "copy-success": "Värdet har kopierats"
-            }
-        },
-        "contract-invoice": {
-            "invoice-info": {
-                "ocr-label": "OCR-nummer"
-            }
-        },
-        "account-invoice": {
-            "page-header": "Kontofaktura",
-            "zero-invoice": {
-                "header": "Varför är min faktura 0 kr?",
-                "text": "Eftersom du tidigare har betalt in mer än vad kontovillkoren kräver behöver du inte betala något denna månad. Självklart kan du ändå göra en inbetalning på valfritt belopp."
+    "contract": {
+        "invoice-page": {
+            "header": "Lånefaktura",
+            "outstanding-payment-message": {
+                "date-prefix": "Sedan",
+                "extra-info": "Dröjsmålsränta och eventuell försenings- och påminnelseavgift debiteras nästa faktura.",
+                "header": "Vi saknar en eller flera betalningar",
+                "info": "För att komma ikapp din betalplan behöver du även betala tidigare missad betalning. Använd betalningsuppgifterna nedan.",
+                "sub-header": "Missad betalning"
             },
-            "no-invoice": {
-                "header": "Inget att betala denna månad",
-                "info": [
-                    "Du har ingen kontofaktura att betala denna månad.",
-                    "För att se dina senaste köp kan du gå till [link {{url}} 'kontohändelser']"
-                ]
+            "short-summary": {
+                "due-amount": "Belopp att betala"
             },
-            "invoice-info": {
-                "header": "Betalningsuppgifter",
-                "amount-paid": "Varav inbetalt",
-                "ocr-account": "OCR/Kontonr.",
-                "ocr-info": "Ditt OCR-nummer är alltid samma som ditt kontonummer.",
-                "invoice-spec": "Fakturaspecifikation",
-                "paid": {
-                    "between-lab1-lab2": "Fakturans lägsta belopp har uppnåtts men du frångår dina delbetalningsplaner. Resterande {{amount}} kr förs över till nästa månads faktura. Ränta tillkommer på hela din totala skuld.",
-                    "between-lab2-lab3": "Fakturans lägsta belopp har uppnåtts. Resterande {{amount}} kr förs över till nästa månads faktura. Ränta tillkommer.",
-                    "paid-lab3": "Du kan göra en extra inbetalning genom att använda samma betalningsuppgifter.",
-                    "paid-more-lab3": "{{amount}} är extra inbetalt och kommer att tillgodoräknas på din nästa kontofaktura."
-                }
-            },
-            "calculate-panel": {
-                "header": "Vill du betala mindre denna månad?",
-                "info": "Betala det belopp som passar dig. Du kan som lägst betala {{minAmount}}",
-                "slider-header": "Du betalar",
-                "radio1-label": "Följ dina delbetalningar",
-                "radio2-label": "Frångå dina delbetalningar denna månad",
-                "no-plan": {
-                    "header": "Betala av på dina kortköp",
-                    "info": "Här väljer du hur mycket du vill betala av dina kortköp. Resterande belopp förs över till nästa månads faktura."
-                },
-                "follow-plan": {
-                    "header": "Följ dina delbetalningar",
-                    "info": "Här följer du dina pågående delbetalningsplaner och väljer hur mycket du vill betala av dina kortköp. Resterande belopp förs över till nästa månads faktura."
-                },
-                "dont-follow-plan": {
-                    "header": "Frångå dina delbetalningar denna månad",
-                    "info": "Här betalar du minst en trettiondel (1/30) av din totala skuld. Resterande belopp förs över till nästa månads faktura. Du kan alltid komma tillbaka till din delbetalningsplan nästa månad."
-                },
-                "part-payments": "Pågående delbetalningar",
-                "card-purchases": "Månadens kortköp",
-                "next-month": {
-                    "header": "Nästa månad",
-                    "transfer-header": "Skuld som överförs",
-                    "transfer-info": "Överförs till nästa månad",
-                    "interest-header": "Ränta",
-                    "interest-info": {
-                        "follow": "Det tillkommer {{interest}}% ränta per månad på kortköp som du väljer att skjuta fram, vilket motsvarar ca {{amount}} per 1000-lapp.",
-                        "dont-follow": "Det tillkommer {{interest}}% ränta per månad på hela din totala skuld, vilket motsvarar ca {{amount}} per 1000-lapp.",
-                        "2c": "$t(invoice.account-invoice.calculate-panel.next-month.interest-info.dont-follow)",
-                        "no-interest": "Ingen ränta tillkommer."
-                    }
-                }
-            }
-        },
-        "account-invoice-spec": {
-            "page-header": "Fakturaspecifikation",
-            "debt": "Skuld föregående månad",
-            "owing": "Tillgodo föregående månad",
-            "total-debt": "Skuld - {{date}}",
-            "total-owing": "Tillgodo - {{date}}",
-            "to-pay": "att betala",
-            "this-months-transactions": "Månadens kontohändelser",
-            "this-months-part-payments": "Pågående delbetalningar"
-        },
-        "invoice-overview": {
-            "page-header": "Fakturor",
-            "table": {
-                "description": "Namn",
-                "invoice-no": "Fakturanr",
-                "due-date": "Förfallodag",
+            "specification": {
                 "amount": "Belopp",
-                "credit-invoice": "Kreditfaktura"
-            },
-            "due-date": {
-                "today": "Idag",
-                "days-left": "1 dag kvar",
-                "days-left_plural": "{{count}} dagar kvar"
-            },
-            "no-invoice": {
-                "header": "Inget att betala",
-                "info": "Du har inget att betala just nu"
-            }
-        },
-        "one-off-invoice": {
-            "debit": {
-                "page-header": "Fakturaköp",
-                "summary-header": "Fakturaköp",
-                "invoice-link": "Faktura",
-                "payment-info-header": "Dela upp din betalning",
-                "payment-info": "Om du önskar delbetala denna faktura betalar du in exakt {{amount}} som skall vara oss tillhanda senast på förfallodagen. För fullständiga villkor se [link-new-win https://www.ecster.se/fakturadelbetalning 'www.ecster.se/fakturadelbetalning' ga:ecster-se-fakturadelbetalning]"
-            },
-            "credit": {
-                "page-header": "Kreditfaktura",
-                "summary-header": "Kreditfaktura",
-                "invoice-link": "Kreditfaktura",
-                "info": [
-                    "Om summan på denna kreditfaktura inte mostsvara den ursprungliga fakturan ska en inbetalning göras på mellanskillnaden. ",
-                    "Betala med uppgifter från ursprungsfakturan."
-                ],
-                "related-invoice": "Kreditfaktura avser faktura",
-                "order-number": "Ordernummer"
-            },
-            "transactions-header": {
-                "DEBIT": "Köp",
-                "CREDIT": "Krediterade belopp"
-            },
-            "bgNumber": "Bankgiro",
-            "ocr": "OCR",
-            "invoice-no": "Fakturanummer",
-            "invoice-date": "Fakturadatum",
-            "table": {
                 "description": "Beskrivning",
-                "number": "Antal",
-                "price": "Pris / st",
-                "amount": "Belopp"
+                "header": "Specifikation",
+                "outstanding-payment-label": "Varav utestående betalning",
+                "period": "Period",
+                "rows": {
+                    "ADMIN_FEE": "Administrativ avgift",
+                    "AMORTIZATION": "Amortering",
+                    "DELAY_INTEREST": "Dröjsmålsränta",
+                    "INTEREST": "Ränta",
+                    "LATE_FEE": "Förseningsavgift",
+                    "OUTSTANDING_PAYMENT": "Tidigare utestående betalning",
+                    "REMINDER_FEE": "Påminnelseavgift"
+                },
+                "since": "Sedan"
             },
             "summary": {
-                "INVOICE_FEE": "Fakturavgift",
-                "SHIPPING_FEE": "Fraktavgift",
-                "FORWARD_FEE": "Speditionsavgift",
-                "DISPATCH_FEE": "Expeditionsavgift",
-                "GENERIC_FEE": "Övriga avgifter",
-                "sum-excl-tax": "Summa exkl moms",
-                "tax": "Moms {{tax}}%",
-                "sum-incl-tax": "Summa inkl moms"
+                "autogiro": {
+                    "activate-info": "Via din internetbank kan du ansöka om autogiro. Då dras dina fakturor automatiskt. Smidigt och enkelt.",
+                    "active": "Autogiro aktiverat",
+                    "not-active": "Betala med autogiro",
+                    "withdrawal-info": "Beloppet kommer att dras automatiskt från ditt bankkonto på förfallodagen."
+                },
+                "bgNumber": "Bankgiro",
+                "due-date": "Förfallodag",
+                "header": "Betalningsuppgifter",
+                "ocr": "OCR",
+                "ocr-unavailable": "Just nu kan vi inte visa OCR-nummer utan hänvisar till pappersfakturan",
+                "status": "Status"
             }
         },
-        "credit-invoice": {
-            "page-header": "Kreditfaktura"
+        "objects": {
+            "// contract overview header": "",
+            "INSTALLMENT_ATV": "Lån fyrhjuling",
+            "INSTALLMENT_BOAT": "Lån motorbåt",
+            "INSTALLMENT_CAR": "Lån bil",
+            "INSTALLMENT_CARAVAN": "Lån husvagn",
+            "INSTALLMENT_MC": "Lån motorcykel",
+            "INSTALLMENT_RV": "Lån husbil",
+            "INSTALLMENT_SAILBOAT": "Lån segelbåt",
+            "INSTALLMENT_SNOWMOBILE": "Lån snöskoter",
+            "INSTALLMENT_WATERJET": "Lån vattenskoter",
+            "INVESTMENTLOAN": "Investeringslån",
+            "other": "Lån",
+            "PROMISSORYNOTE": "Privatlån"
         },
-        "ocr-scan": {
-            "text": "Scanna för betalning",
-            "info": "Använd din bankapp för att scanna uppgifterna nedan."
-        }
-    },
-    "card": {
-        "faq": {
-            "header-faq": "Frågor och svar",
-
-            "header-section-1": "Pinkod",
-            "question-1-1": "Hur ändrar jag pinkod?",
-            "question-1-2": "Hur gör jag om jag glömt min pinkod?",
-            "answer-to-question-1-2": "Då behöver du beställa ett nytt kort med en ny kod. Kontakta oss på $t(general.phone-link-087014667) så hjälper vi dig.",
-            "answer-to-question-1-1": "Du kan ändra din pinkod i närmaste uttagsautomat som är kopplad till Bankomat AB.",
-
-            "header-section-2": "Använda kortet utomlands och på internet",
-            "question-2-1": "Kan jag handla med kortet utomlands och på internet?",
-            "question-2-2": "Kan jag stänga mitt kort för användning utomlands eller på internet?",
-            "answer-to-question-2-1": "Absolut! Som standard är kortet öppet för användning utomlands och på internet.",
-            "answer-to-question-2-2": "Har du ett kreditkort handlar du säkert i hela världen, både på nätet och i fysisk butik. Våra kreditkort övervakas av ett säkerhetssystem som gör allt för att hindra bedrägliga transaktioner. Om du vill stänga kortet, kontakta oss på $t(general.phone-link-087014667) så hjälper vi dig."
-        },
-        "general": {
-            "card-number": "Kortnummer",
-            "card-holder": "Kortinnehavare",
-            "valid-to": "Giltigt t.o.m.",
-            "status": "Status",
-            "active": "Aktivt",
-            "activate": "Aktivera",
-            "inactive": "Inaktivt"
-        },
-        "manage-card": {
-            "page-header": "Hantera kort",
-            "page-header-no-card": "Beställ kort"
-        },
-        "apply-for-card": {
-            "header": "Koppla ett kort till ditt konto",
-            "info": "När du ansluter ett kreditkort till ditt konto kan du använda din kontokredit på fler ställen. Kortet är kopplat till Mastercard och funkar över hela världen.",
-            "terms-info": "Samtliga villkor hittar du i dina [link-new-win {{termsURL}} 'kontovillkor' ga:account-terms]",
-            "sub-header1": "Villkor",
-            "sub-header2": "Förmåner",
-            "yearly-fee": "Årsavgift",
-            "credit-limit": "Kreditgräns",
-            "info-list": [
-                "Upp till 8 veckors räntefri kredit",
-                "Köparskydd ingår - trygghet när du handlar",
-                "Dela upp större köp i efterhand"
+        "overview": {
+            "aip": {
+                "amount-label": "Du har ett lånelöfte hos Ecster på",
+                "bullets": [
+                    "Lånelöftet är giltigt i två månader",
+                    "Ta med lånelöftet till din handlare",
+                    "Lös lånet när du vill"
+                ],
+                "header": "Lånelöfte",
+                "info": "Med lånelöftet kan du köpa nya eller begagnade objekt hos något av de säljföretag vi samarbetar med. Villkor som exempelvis ränta och betalningstid får du hos den handlare som hjälper dig slutföra affären."
+            },
+            "amount-label": "Kapitalskuld",
+            "collection": {
+                "header": "Skickad till inkasso",
+                "info": "Ditt lån har överförts till inkasso. För mer information ber vi dig ta kontakt med Kredinor på $t(general.phone-link-kredinor)."
+            },
+            "contact-us": {
+                "header": "Kontakta oss",
+                "info": "Just nu kan vi inte visa ditt lån, vänligen ring oss på $t(general.phone-link-087014667)."
+            },
+            "finished": {
+                "header": "Avslutat",
+                "info": "Ditt lån är slutbetalt och avtalet är avslutat."
+            },
+            "header-prefix": "Lån",
+            "info": [
+                "Skulden som presenteras är din kapitalskuld.",
+                "Din kvarstående skuld exklusive ränta och avgifter.",
+                "För att lösa ditt lån behöver du kontakta oss."
             ],
-            "button": "Beställ",
-            "confirm-dialog": {
-                "header": "Beställ ett kort",
-                "text": "När du skickat beställningen kommer ditt kort att präglas och skickas till dig, det tar ca en vecka. Pinkoden kommer i ett separat kuvert",
-                "ok-button": "Ok, skicka"
+            "invoice": {
+                "amount": "Belopp",
+                "detail-link": "Mer information",
+                "due-date": "Förfallodag",
+                "header1": "Faktura",
+                "header2": "Senaste inbetalning",
+                "payment-bg": "Inbetalning BG",
+                "status": "Status"
             },
-            "success": {
-                "header": "Tack för din beställning",
-                "info": "Så snart du har fått hem ditt kort, kan du logga in och aktivera det här."
+            "links": {
+                "info": "Låneinformation",
+                "invoice": "Lånefaktura"
             },
-            "pending": {
-                "header": "Ditt beställda kort är på väg",
-                "header_plural": "Dina beställda kort är på väg",
-                "info": "Kortet landar i din brevlåda inom ett par dagar, din pinkod kommer i ett separat brev. Innan du börjar använda kortet måste du logga in och aktivera det här.",
-                "info_plural": "Korten landar i din brevlåda inom ett par dagar, pinkoderna kommer i separata brev. Innan du börjar använda korten måste du logga in och aktivera dem här."
-            },
-            "failure": {
-                "header": "Åh nej!",
-                "info": "Din beställning kunde inte genomföras. Har du frågor kan du ringa oss på $t(general.phone-link-08343550). Vi har öppet vardagar 9-18"
+            "over-due": {
+                "header": "Vi saknar en eller flera betalningar",
+                "info": "Se din faktura för mer information."
             }
         },
-        "activate-card": {
-            "header": "Aktivera ditt kort",
-            "info": "Ange CVC-koden som står på kortets baksida för att aktivera kortet.",
-            "input-label": "CVC-kod",
-            "button": "Aktivera",
-            "validation-message": "Ange tre siffror",
-            "wrong-cvc": "Felaktig kod. Vänligen försök igen.",
-            "success": {
-                "header": "Ditt kort är aktiverat",
-                "info": "Ditt kort är aktiverat och klart att använda."
+        "payment-status": {
+            "NOT_PAID": "Obetald",
+            "PAID": "Betald"
+        },
+        "redeem-info": {
+            "header": "Vill du lösa ditt lån?",
+            "info": "Kontakta vår kundservice på $t(general.phone-link-08330130) så hjälper vi dig"
+        },
+        "terms-page": {
+            "header": "Låneinformation",
+            "object-condition": {
+                "NEW": "Ny",
+                "USED": "Begagnad"
             },
-            "failure": {
-                "header": "Åh nej!",
-                "info": "Kortet kunde inte aktiveras. Ring oss gärna på $t(general.phone-link-0771299300) så hjälper vi till."
-            }
-        },
-        "show-card": {
-            "default-card-name": "Ecsterkort",
-            "BLOCKED": "Spärrat",
-            "TEMPORARILY_BLOCKED": "Tillfälligt spärrat",
-            "ACTIVE": "Aktivt",
-            "INACTIVE": "Ej aktiverat"
-        },
-        "block-card": {
-            "header": "Spärra ditt kort",
-            "info": "Ring $t(general.phone-link-020411212). Vi har öppet dygnet runt. Om du befinner dig utomlands så ringer du $t(general.phone-link-4684112122)."
-        },
-        "apply-for-extra-card": {
-            "header": "Beställ ett extrakort",
-            "info": "Beställ extrakort till någon i familjen. Då kan ni handla och samla bonuspoäng från flera kort kopplade till samma konto. Skriv ut och fyll i ansökningsblanketten och skicka till Ecster, Box 2169, 103 14 Stockholm",
-            "button": "Ladda ner ansökan (pdf)"
-        },
-        "show-extra-card": {
-            "header": "Befintliga extrakort",
-            "change-button": "Ändra",
-            "pending": {
-                "header": "Din beställning av extrakort behandlas",
-                "info": "$t(card.apply-for-card.pending.info)"
+            "object-type": {
+                "// contract terms page": "",
+                "ACCESSORIES": "Tillbehör",
+                "ATV": "Fyrhjuling",
+                "BOAT": "Motorbåt",
+                "CAR": "Bil",
+                "CARAVAN": "Husvagn",
+                "MC": "Motorcykel",
+                "MISC": "Övrigt",
+                "OFFICEIT": "Kontor/IT",
+                "PWC": "Vattenskoter",
+                "RV": "Husbil",
+                "SAILBOAT": "Segelbåt",
+                "SNOWMOBILE": "Snöskoter",
+                "TRANSPORT": "Transportfordon"
+            },
+            "status": {
+                "ACTIVE": "Aktiv",
+                "AIP": "Lånelöfte",
+                "COLLECTION": "Skickad till inkasso",
+                "CONTACT": "Kontakta oss",
+                "DENIED": "Ej godkänd",
+                "ERROR": "",
+                "FINISHED": "Avslutat",
+                "UNKNOWN": "Okänd",
+                "US": ""
+            },
+            "summary": {
+                "debt-at-date": "Kapitalskuld",
+                "months": "mån",
+                "status": "Status",
+                "time-left": "Tid kvar"
+            },
+            "terms": {
+                "admin-fee": "Administrativ avgift",
+                "all-applicants-1": "Låntagare",
+                "all-applicants-n": "Samtliga låntagare",
+                "amount": "Pris",
+                "condition": "Skick",
+                "contract-no": "Avtalsnummer",
+                "description": "Beskrivning",
+                "header": "Avtalsvillkor",
+                "initial-debt": "Ursprunglig skuld",
+                "object": "Objekt",
+                "per-month": "/mån",
+                "reg-no": "Reg.nr.",
+                "selling-company": "Såld av",
+                "vat-code": "Moms",
+                "yearly-interest": "Årsränta"
             }
         }
     },
     "customer": {
+        "contact-us": {
+            "faq": {
+                "button": "Frågor och svar",
+                "header": "Vi gillar frågor",
+                "info": "Hitta svaren i vår FAQ. Alla vanliga frågor samlade på ett ställe.",
+                "url": "https://www.ecster.se/kundservice#faq-hela"
+            },
+            "header": "Kontakta oss",
+            "section1": {
+                "call-info": "Ring $t(general.phone-link-087014667)",
+                "header": "Konto, kort eller delbetalning",
+                "info": "Vid frågor om ett köp, t ex elektronik eller vitvaror. Eller när du har frågor om ditt kreditkort.",
+                "opening-hours": "Öppet vardagar 9-18"
+            },
+            "section2": {
+                "call-info": "Ring $t(general.phone-link-08330130)",
+                "header": "Lån",
+                "info": "Vid frågor om lån av ett objekt (till exempel bil), privatlån eller investeringslån.",
+                "opening-hours": "Öppet vardagar 9-18"
+            },
+            "section3": {
+                "from-abroad-label": "Från utlandet",
+                "from-abroad-number": "$t(general.phone-link-4684112122)",
+                "from-domestic-label": "Från Sverige",
+                "from-domestic-number": "$t(general.phone-link-020411212)",
+                "header": "Spärra kort",
+                "opening-hours": "Öppet dygnet runt"
+            },
+            "section4": "FI only",
+            "section5": "FI only",
+            "section6": "FI only",
+            "sub-header": "Behöver du prata med oss?"
+        },
         "profile": {
             "info-text": "Handla tryggare på internet. Genom att fylla i ditt mobilnummer här kopplar du ditt kort till Mastercard Secure Code, som innebär att det sker en extra kontroll när du handlar på nätet. Din mejladress behöver vi för att kunna skicka information till dig om ditt konto.",
             "reminder": {
@@ -790,307 +839,309 @@
                     "info": "Om du vill ändra dina uppgifter i framtiden så kan du göra det under [link {{profileLink}} 'Profil' ga:profile-page]."
                 }
             }
+        }
+    },
+    "footer": {
+        "block-card": "Spärra kort",
+        "contact": "Kontakt",
+        "copyright": "Ecster"
+    },
+    "general": {
+        "address": {
+            "address": "Adress",
+            "city": "Stad",
+            "country": "Land",
+            "country-code": "Landskod",
+            "email": "E-post",
+            "info": "Vi använder din folkbokföringsadress som uppdateras automatiskt om du flyttar",
+            "mobile": "Mobil",
+            "name": "Namn",
+            "number": "Nummer",
+            "zip": "Postnummer"
         },
-        "contact-us": {
-            "header": "Kontakta oss",
-            "sub-header": "Behöver du prata med oss?",
-            "faq": {
-                "header": "Vi gillar frågor",
-                "info": "Hitta svaren i vår FAQ. Alla vanliga frågor samlade på ett ställe.",
-                "button": "Frågor och svar",
-                "url": "https://www.ecster.se/kundservice#faq-hela"
-            },
-            "section1": {
-                "header": "Konto, kort eller delbetalning",
-                "opening-hours": "Öppet vardagar 9-18",
-                "info": "Vid frågor om ett köp, t ex elektronik eller vitvaror. Eller när du har frågor om ditt kreditkort.",
-                "call-info": "Ring $t(general.phone-link-087014667)"
-            },
-            "section2": {
-                "header": "Lån, leasing eller avbetalning",
-                "opening-hours": "Öppet vardagar 9-18",
-                "info": "Vid frågor om lån, leasing eller avbetalning av ett objekt, t ex bil, båt eller husvagn.",
-                "call-info": "Ring $t(general.phone-link-08330130)"
-            },
-            "section3": {
-                "header": "Spärra kort",
-                "opening-hours": "Öppet dygnet runt",
-                "call-info": {
-                    "from-sweden-label": "Från Sverige",
-                    "from-abroad-label": "Från utlandet",
-                    "from-sweden-number": "$t(general.phone-link-020411212)",
-                    "from-abroad-number": "$t(general.phone-link-4684112122)"
-                }
+        "answer": {
+            "no": "Nej",
+            "yes": "Ja"
+        },
+        "back": "Tillbaka",
+        "bgNumber": {
+            "account": "847-2425",
+            "invoice": "5232-4381"
+        },
+        "cancel": "Avbryt",
+        "close": "Stäng",
+        "download": "Ladda ner",
+        "edit": "Ändra",
+        "error": {
+            "general": {
+                "body": "Ett tekniskt fel har inträffat och vi jobbar för fullt på att lösa problemet. Försök gärna igen om en liten stund.",
+                "header": "Åh nej!"
             }
+        },
+        "exportToExcel": "Exportera till Excel",
+        "help": "Hjälp",
+        "next": "Nästa",
+        "ok": "Ok",
+        "phone-link-0104442600": "FI only",
+        "phone-link-020333": "FI only",
+        "phone-link-020411212": "[link tel:020411212 '020&#8209;41&nbsp;12&nbsp;12' ga:call-block-card]",
+        "phone-link-0771299300": "[link tel:0771299300 '0771&#8209;299300' ga:call-failed-card-activation]",
+        "phone-link-08330130": "[link tel:08330130 '08&#8209;33&nbsp;01&nbsp;30' ga:call-customer-contract-credit]",
+        "phone-link-08343550": "[link tel:08343550 '08&#8209;34&nbsp;35&nbsp;50' ga:call-raise-credit]",
+        "phone-link-087014667": "[link tel:087014667 '08&#8209;701&nbsp;46&nbsp;67' ga:call-customer-account]",
+        "phone-link-35820333": "FI only",
+        "phone-link-4684112122": "[link tel:+4684112122 '+46&#8209;8&nbsp;411&nbsp;21&nbsp;22' ga:call-block-card-from-abroad]",
+        "phone-link-kredinor": "[link tel:+468156204 '08&#8209;156&nbsp;204' ga:call-kredinor]",
+        "previous": "Föregående",
+        "save": "Spara",
+        "select-lang": "FI only",
+        "ssn": "Personnummer",
+        "support-opening-hours": "Vi har öppet vardagar 9-18 och helger 10-18.",
+        "total": "Totalt",
+        "validation": {
+            "country-code": "Du måste välja en landskod",
+            "email": "Kolla att e-postadressen blev rätt och försök igen",
+            "phone": "Kolla att numret blev rätt och försök igen",
+            "ssn": "Något gick fel. Kontrollera att du angett ett giltigt personnummer, tio siffror (ååmmdd-xxxx)"
         }
     },
     "home": {
-        "login": {
-            "desktop": {
-                "header": "Logga in",
-                "placeholder": "fifi: Välj bank",
-                "login-button": "fifi: Logga in"
-            },
-            "touch": {
-                "mbid-other-device": {
-                    "header": "fifi:Logga in",
-                    "sub-header": "fifi:med Mobilt BankID från annan enhet",
-                    "ssn-label": "fifi:Personnummer",
-                    "ssn-placeholder": "fifi:ÅÅMMDD-XXXX",
-                    "login-button": "fifi:Logga in",
-                    "to-mbid-this-device-button": "fifi:Mobilt BankID på denna enhet"
-                },
-                "mbid-this-device": {
-                    "header": "fifi:Logga in",
-                    "login-button": "fifi:Mobilt BankID",
-                    "to-mbid-button": "fifi:Mobilt BankID från annan enhet"
-                }
-            },
-            "in-progress": {
-                "manual": {
-                    "info": "fifi:Om inte BankID öppnas, klicka här",
-                    "button": "fifi:Starta BankID"
-                },
-                "desktop": {
-                    "this-device": {
-                        "header": "fifi:Öppna BankID",
-                        "body": [
-                            "Låt sidan vara öppen under tiden du loggar in med ditt BankID, annars avbryts inloggningen."
-                        ],
-                        "body-cancelled": ["Åtgärden avbruten. Försök igen."],
-                        "body-already-in-progress": [
-                            "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
-                        ],
-                        "body-internal-error": ["Internt tekniskt fel. Försök igen."],
-                        "body-user-cancel": ["Åtgärden avbruten."],
-                        "body-expired-transaction": [
-                            "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
-                        ],
-                        "body-user-sign": [
-                            "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
-                        ],
-                        "body-certificate-error": [
-                            "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
-                        ],
-                        "body-started": [
-                            "Söker efter BankID, det kan ta en liten stund… Om det har gått några sekunder och inget BankID har hittats har du sannolikt inget BankID som går att använda för den aktuella identifieringen/underskriften i den här datorn. Om du har ett BankID-kort, sätt in det i kortläsaren. Om du inte har något BankID kan du hämta ett hos din internetbank."
-                        ],
-                        "body-start-failed": [
-                            "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:desktop-this-device-install-bankid] [icon-external-link e-green]."
-                        ]
-                    },
-                    "other-device": {
-                        "header": "fifi:Öppna Mobilt BankID",
-                        "body": [
-                            "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
-                        ],
-                        "body-cancelled": ["Åtgärden avbruten. Försök igen."],
-                        "body-already-in-progress": [
-                            "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
-                        ],
-                        "body-internal-error": ["Internt tekniskt fel. Försök igen."],
-                        "body-user-cancel": ["Åtgärden avbruten."],
-                        "body-expired-transaction": [
-                            "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
-                        ],
-                        "body-user-sign": [
-                            "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
-                        ],
-                        "body-certificate-error": [
-                            "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
-                        ],
-                        "body-start-failed": [
-                            "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:desktop-other-device-install-bankid] [icon-external-link e-green]."
-                        ]
-                    }
-                },
-                "touch": {
-                    "this-device": {
-                        "header": "fifi:Öppna Mobilt BankID",
-                        "body": [
-                            "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
-                        ],
-                        "body-cancelled": ["Åtgärden avbruten. Försök igen."],
-                        "body-already-in-progress": [
-                            "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
-                        ],
-                        "body-internal-error": ["Internt tekniskt fel. Försök igen."],
-                        "body-user-cancel": ["Åtgärden avbruten."],
-                        "body-expired-transaction": [
-                            "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
-                        ],
-                        "body-user-sign": [
-                            "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
-                        ],
-                        "body-certificate-error": [
-                            "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
-                        ],
-                        "body-start-failed": [
-                            "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:touch-this-device-install-bankid] [icon-external-link e-green]."
-                        ]
-                    },
-                    "other-device": {
-                        "header": "fifi:Öppna Mobilt BankID",
-                        "body": [
-                            "Starta BankID säkerhetsapp i din mobil eller surfplatta och ange din kod. Låt denna sida vara öppen, annars avbryts inloggningen."
-                        ],
-                        "body-cancelled": ["Åtgärden avbruten. Försök igen."],
-                        "body-already-in-progress": [
-                            "En identifiering eller underskrift för det här personnumret är redan påbörjad. Försök igen."
-                        ],
-                        "body-internal-error": ["Internt tekniskt fel. Försök igen."],
-                        "body-user-cancel": ["Åtgärden avbruten."],
-                        "body-expired-transaction": [
-                            "BankID-appen svarar inte. Kontrollera att den är startad och att du har internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos din Bank. Försök sedan igen."
-                        ],
-                        "body-user-sign": [
-                            "Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv under."
-                        ],
-                        "body-certificate-error": [
-                            "Det BankID du försöker använda är för gammalt eller spärrat. Använd ett annat BankID eller hämta ett nytt hos din internetbank."
-                        ],
-                        "body-start-failed": [
-                            "BankID-appen verkar inte finnas i din dator eller telefon. Installera den och hämta ett BankID hos din internetbank. Installera appen från [link-new-win https://install.bankid.com 'https://install.bankid.com' ga:touch-other-device-install-bankid]  [icon-external-link e-green]."
-                        ]
-                    }
-                }
-            }
-        },
         "feedback": {
             "header": "Vad tycker du?",
             "info": "Vi är nyfikna på vad du tycker om den nya inloggade tjänsten på webben och appen. Här kan du lämna synpunkter eller rapportera fel.",
-            "link": "Ok"
+            "link": "Lämna synpunkter"
+        }
+    },
+    "invoice": {
+        "account-invoice": {
+            "calculate-panel": {
+                "card-purchases": "Månadens kortköp",
+                "dont-follow-plan": {
+                    "header": "Frångå dina delbetalningar denna månad",
+                    "info": "Här betalar du minst en trettiondel (1/30) av din totala skuld. Resterande belopp förs över till nästa månads faktura. Du kan alltid komma tillbaka till din delbetalningsplan nästa månad."
+                },
+                "follow-plan": {
+                    "header": "Följ dina delbetalningar",
+                    "info": "Här följer du dina pågående delbetalningsplaner och väljer hur mycket du vill betala av dina kortköp. Resterande belopp förs över till nästa månads faktura."
+                },
+                "header": "Vill du betala mindre denna månad?",
+                "info": "Betala det belopp som passar dig. Du kan som lägst betala {{minAmount}}",
+                "next-month": {
+                    "header": "Nästa månad",
+                    "interest-header": "Ränta",
+                    "interest-info": {
+                        "2c": "$t(invoice.account-invoice.calculate-panel.next-month.interest-info.dont-follow)",
+                        "dont-follow": "Det tillkommer {{interest}}% ränta per månad på hela din totala skuld, vilket motsvarar ca {{amount}} per 1000-lapp.",
+                        "follow": "Det tillkommer {{interest}}% ränta per månad på kortköp som du väljer att skjuta fram, vilket motsvarar ca {{amount}} per 1000-lapp.",
+                        "no-interest": "Ingen ränta tillkommer."
+                    },
+                    "transfer-header": "Skuld som överförs",
+                    "transfer-info": "Överförs till nästa månad"
+                },
+                "no-plan": {
+                    "header": "Betala av på dina kortköp",
+                    "info": "Här väljer du hur mycket du vill betala av dina kortköp. Resterande belopp förs över till nästa månads faktura."
+                },
+                "part-payments": "Pågående delbetalningar",
+                "radio1-label": "Följ dina delbetalningar",
+                "radio2-label": "Frångå dina delbetalningar denna månad",
+                "slider-header": "Du betalar"
+            },
+            "invoice-info": {
+                "amount-paid": "Varav inbetalt",
+                "header": "Betalningsuppgifter",
+                "invoice-spec": "Fakturaspecifikation",
+                "ocr-account": "OCR/Kontonr.",
+                "ocr-account-label": "OCR/Kontonr.",
+                "ocr-info": "Ditt OCR-nummer är alltid samma som ditt kontonummer.",
+                "paid": {
+                    "between-lab1-lab2": "Fakturans lägsta belopp har uppnåtts men du frångår dina delbetalningsplaner. Resterande {{amount}} kr förs över till nästa månads faktura. Ränta tillkommer på hela din totala skuld.",
+                    "between-lab2-lab3": "Fakturans lägsta belopp har uppnåtts. Resterande {{amount}} kr förs över till nästa månads faktura. Ränta tillkommer.",
+                    "paid-lab3": "Du kan göra en extra inbetalning genom att använda samma betalningsuppgifter.",
+                    "paid-more-lab3": "{{amount}} är extra inbetalt och kommer att tillgodoräknas på din nästa kontofaktura."
+                }
+            },
+            "no-invoice": {
+                "header": "Inget att betala denna månad",
+                "info": [
+                    "Du har ingen kontofaktura att betala denna månad.",
+                    "För att se dina senaste köp kan du gå till [link {{url}} 'kontohändelser']"
+                ]
+            },
+            "page-header": "Kontofaktura",
+            "zero-invoice": {
+                "header": "Varför är min faktura 0 kr?",
+                "text": "Eftersom du tidigare har betalt in mer än vad kontovillkoren kräver behöver du inte betala något denna månad. Självklart kan du ändå göra en inbetalning på valfritt belopp."
+            }
         },
-        "after-logout": {
-            "login-link": "Logga in igen",
-            "logged-out-msg": "Tack för besöket. Du är nu utloggad."
+        "account-invoice-spec": {
+            "debt": "Skuld föregående månad",
+            "owing": "Tillgodo föregående månad",
+            "page-header": "Fakturaspecifikation",
+            "this-months-part-payments": "Pågående delbetalningar",
+            "this-months-transactions": "Månadens kontohändelser",
+            "to-pay": "att betala",
+            "total-debt": "Skuld - {{date}}",
+            "total-owing": "Tillgodo - {{date}}"
+        },
+        "contract-invoice": {
+            "invoice-info": {
+                "ocr-label": "OCR-nummer"
+            }
+        },
+        "credit-invoice": {
+            "page-header": "Kreditfaktura"
+        },
+        "general": {
+            "due-date": "Förfallodag",
+            "paid": "Betald",
+            "partly-paid": "Delvis betald",
+            "unpaid": "Obetald"
+        },
+        "invoice-overview": {
+            "due-date": {
+                "days-left": "1 dag kvar",
+                "days-left_plural": "{{count}} dagar kvar",
+                "today": "Idag"
+            },
+            "no-invoice": {
+                "header": "Inget att betala",
+                "info": "Du har ingen faktura att betala just nu"
+            },
+            "page-header": "Fakturor",
+            "table": {
+                "amount": "Belopp",
+                "credit-invoice": "Kreditfaktura",
+                "description": "Namn",
+                "due-date": "Förfallodag",
+                "invoice-no": "Fakturanr"
+            }
+        },
+        "invoice-values": {
+            "bg-number": "Bankgiro",
+            "due-amount": "Belopp att betala",
+            "tooltip": {
+                "copy-amount": "Kopiera belopp",
+                "copy-bg-number": "Kopiera bg-nummer",
+                "copy-due-date": "Kopiera förfallodag",
+                "copy-ocr-number": "Kopiera OCR-nummer",
+                "copy-success": "Värdet har kopierats"
+            }
+        },
+        "ocr-scan": {
+            "info": "Använd din bankapp för att scanna uppgifterna nedan.",
+            "text": "Scanna för betalning"
+        },
+        "one-off-invoice": {
+            "bgNumber": "Bankgiro",
+            "credit": {
+                "info": [
+                    "Om summan på denna kreditfaktura inte mostsvara den ursprungliga fakturan ska en inbetalning göras på mellanskillnaden. ",
+                    "Betala med uppgifter från ursprungsfakturan."
+                ],
+                "invoice-link": "Kreditfaktura",
+                "order-number": "Ordernummer",
+                "page-header": "Kreditfaktura",
+                "related-invoice": "Kreditfaktura avser faktura",
+                "summary-header": "Kreditfaktura"
+            },
+            "debit": {
+                "invoice-link": "Faktura",
+                "page-header": "Fakturaköp",
+                "payment-info": "Om du önskar delbetala denna faktura betalar du in exakt {{amount}} som skall vara oss tillhanda senast på förfallodagen. För fullständiga villkor se [link-new-win https://www.ecster.se/fakturadelbetalning 'www.ecster.se/fakturadelbetalning' ga:ecster-se-fakturadelbetalning]",
+                "payment-info-header": "Dela upp din betalning",
+                "summary-header": "Fakturaköp"
+            },
+            "invoice-date": "Fakturadatum",
+            "invoice-no": "Fakturanummer",
+            "ocr": "OCR",
+            "summary": {
+                "DISPATCH_FEE": "Expeditionsavgift",
+                "FORWARD_FEE": "Speditionsavgift",
+                "GENERIC_FEE": "Övriga avgifter",
+                "INVOICE_FEE": "Fakturavgift",
+                "SHIPPING_FEE": "Fraktavgift",
+                "sum-excl-tax": "Summa exkl moms",
+                "sum-incl-tax": "Summa inkl moms",
+                "tax": "Moms {{tax}}%"
+            },
+            "table": {
+                "amount": "Belopp",
+                "description": "Beskrivning",
+                "number": "Antal",
+                "price": "Pris / st"
+            },
+            "transactions-header": {
+                "CREDIT": "Krediterade belopp",
+                "DEBIT": "Köp"
+            }
         }
     },
     "loan": {
-        "status": {
-            "DENIED": {
-                "header": "Åh nej!",
-                "body": [
-                    "Vi kunde tyvärr inte godkänna din ansökan",
-                    "Om du har frågor, kontakta oss gärna på $t(general.phone-link-08330130).",
-                    " Vi har öppet vardagar 9 – 18."
-                ]
-            },
-            "ERROR": {
-                "header": "Åh nej!",
-                "body": [
-                    "Ett tekniskt fel har inträffat, vi jobbar för fullt på att lösa det. Försök gärna igen om en liten stund."
-                ]
-            },
-            "PENDING": {
-                "header": "Tack för din ansökan!",
-                "sub-header": "Vad händer nu?",
-                "body": [
-                    "Vi går igenom din låneansökan",
-                    "Du får besked på mejl inom ett dygn",
-                    "På översikten hittar du aktuell status för din ansökan"
-                ]
-            },
-            "APPROVED": {
-                "header": "Klart!",
-                "ingress": "Din låneansökan är godkänd och vi kan snart betala ut ditt lån.",
-                "sub-header": "Vad händer nu?",
-                "body": [
-                    "<p>Skriv ut ditt [link-new-win {{url}} 'skuldebrev (pdf)' ga:loan-terms-pdf] [icon-download e-green]",
-                    "<p>Signera och skicka in (portot är förbetalt)</p><div>FRISVAR</div><div>Ecster</div><div>20677247</div><div>110 02 Stockholm</div>",
-                    "<p>Pengarna sätts in på ditt konto inom ca tre bankdagar</p>"
-                ]
-            }
+        "banks": {
+            "handelsbanken": "Handelsbanken",
+            "nordea": "Nordea",
+            "seb": "SEB",
+            "sparbank": "Sparbanken",
+            "swedbank": "Swedbank"
         },
-        "overview-header": "Privatlån",
-        "processing-message": "Vi behandlar din ansökan...",
-        "general": {
-            "about": "Om lånet",
-            "account": "Ange ett av dina egna kontonummer för utbetalning",
-            "account-number": "Kontonummer",
-            "account-number-error": "Vänligen ange ditt kontonummer",
-            "apply": "Skicka ansökan",
-            "clearing-number": "Clearingnummer",
-            "clearing-number-error": "Vänligen ange ditt clearingnummer",
-            "clearing-number-error-sparbank": "Sparbankerna har 5-siffrigt clearingnr.",
-            "clearing-number-error-swedbank": "Swedbank har 4-siffrigt clearingnr.",
-            "consumer-goods": "Konsumtionsvaror (tex hemelektronik)",
-            "header": "Låneinformation",
-            "other": "Annat",
-            "other-usage": "Definiera vad",
-            "other-usage-error": "Vänligen ange vad lånet ska användas till",
-            "purpose": "Vad lånet skall användas till?",
-            "purpose-error": "Vänligen ange vad lånet ska användas till",
-            "resolve-other": "Ange belopp du avser lösa",
-            "resolve": "Samla andra lån/krediter",
-            "residence-other": "Övrigt till bostad (renovering etc)",
-            "vehicle": "Köp av fordon",
-            "terms": "Jag försäkrar att lämnade uppgifter är riktiga, fullständiga samt att jag är kontohavare till det angivna kontot för utbetalning. Jag är medveten om att ansökan föranleder en sedvanlig kreditprövning. Jag bekräftar att jag tagit del av samtliga dessa bestämmelser inklusive ovanstående kreditvillkor före undertecknandet",
-            "terms-error": "Vänligen försäkra att dina uppgifter är korrekta",
-            "withdrawal": "Utbetalning",
-            "enter-bank": "Ange bank dit utbetalning ska ske",
-            "bank": "Bank",
-            "bank-error": "Vänligen ange bankens namn"
+        "body": {
+            "amount": "Lånebelopp",
+            "cost": "Månadskostnad",
+            "details": "Specifikation",
+            "header": "Ansök om privatlån",
+            "payback": "Återbetalningstid",
+            "rent": "Ränta: {{rent}}%",
+            "show-more": "Specifikation",
+            "submit": "Gå vidare",
+            "year": "{{year}} år"
+        },
+        "campaign-panel": {
+            "link-text": "Ansök om privatlån"
+        },
+        "cost": {
+            "effective-rate": "Effektiv ränta: {{rate}} %",
+            "header": "Månadskostnad",
+            "rate": "Rörlig ränta, f.n.: {{rate}} %"
         },
         "economy": {
             "12month": "Min nuvarande anställning har varat längre än 12 månader",
-            "12month-error": "Ange din anställningstid",
             "12month-company": "Jag har haft mitt företag längre än 12 månader",
             "12month-company-error": "Ange hur länge du haft ditt företag",
-            "adults-label": "Hur många vuxna finns det i hushållet?",
+            "12month-error": "Ange din anställningstid",
             "adults-error": "Ange antal vuxna med siffror",
-            "children-label": "Hur många barn finns det i hushållet?",
+            "adults-label": "Hur många vuxna finns det i hushållet?",
             "children-error": "Ange antal barn med siffror",
+            "children-label": "Hur många barn finns det i hushållet?",
             "company-name": "Företagsnamn",
             "company-name-error": "Ange namnet på ditt företag",
             "default-label": "Välj",
             "employer": "Arbetsgivare",
             "employer-error": "Ange namnet på din arbetsgivare",
-            "occupation-error": "Välj nuvarande sysselsättning",
-            "gross-income-label": "Månadsinkomst före skatt (kr/mån)",
             "gross-income-error": "Fyll i din inkomst med siffror",
+            "gross-income-label": "Månadsinkomst före skatt (kr/mån)",
             "header": "Ekonomi",
-            "household": "Hushåll",
             "house-label": "Vad är bostadens driftkostnader/mån?",
-            "income-label": "Månadsinkomst efter skatt (kr/mån)",
+            "household": "Hushåll",
             "income-error": "Fyll i din inkomst med siffror",
-            "living-label": "Hur bor du?",
+            "income-label": "Månadsinkomst efter skatt (kr/mån)",
             "living-error": "Välj din nuvarande bostadstyp",
-            "living-other-label": "Fyll i vilken boendeform",
+            "living-label": "Hur bor du?",
             "living-other-error": "Vänligen ange boendeform",
+            "living-other-label": "Fyll i vilken boendeform",
             "mortgage-checkbox": "Jag har inga bolån",
             "mortgage-checkbox-error": "Kryssa denna eller välj ett lånebelopp nedan",
-            "mortgage-cost-label": "Ungefärlig månadskostnad för bolån - endast amortering och ränta",
             "mortgage-cost-error": "Välj ett ungefärligt lånebelopp",
+            "mortgage-cost-label": "Ungefärlig månadskostnad för bolån - endast amortering och ränta",
             "occupation": "Sysselsättning",
+            "occupation-error": "Välj nuvarande sysselsättning",
             "occupation-label": "Vad är din huvudsakliga sysselsättning?",
-            "others": "Bolån och övriga lån/krediter",
-            "others-living-label": "Vad är bostadens kostnader/mån?",
-            "other-loan-checkbox": "Jag har inga övriga lån",
-            "other-loan-checkbox-error": "Kryssa denna eller välj ett lånebelopp nedan",
-            "other-loan-cost-label": "Ungefärlig månadskostnad för övriga lån och krediter",
-            "other-loan-cost-error": "Välj ett ungefärligt lånebelopp",
             "options": {
-                "occupation": {
-                    "fulltime": "Tillsvidareanställd",
-                    "solo": "Egenföretagare",
-                    "parttime": "Visstidsanställd (tex vikarie)",
-                    "tryout": "Provanställd",
-                    "pension": "Pensionär",
-                    "student": "Student",
-                    "searching": "Arbetssökande"
-                },
                 "living": {
-                    "rental": "Hyresrätt",
-                    "owned": "Bostadsrätt",
                     "house": "Villa",
-                    "other": "Annat"
-                },
-                "rent": {
-                    "span1": "2000 kr - 3000 kr",
-                    "span2": "3001 kr - 4000 kr",
-                    "span3": "4001 kr - 5000 kr",
-                    "span4": "5000 kr eller mer"
+                    "other": "Annat",
+                    "owned": "Bostadsrätt",
+                    "rental": "Hyresrätt"
                 },
                 "mortgage-loan": {
                     "span1": "0,5 mkr - 1 mkr",
@@ -1100,6 +1151,15 @@
                     "span5": "4+ mkr - 5 mkr",
                     "span6": "5+ mkr eller mer"
                 },
+                "occupation": {
+                    "fulltime": "Tillsvidareanställd",
+                    "parttime": "Visstidsanställd (tex vikarie)",
+                    "pension": "Pensionär",
+                    "searching": "Arbetssökande",
+                    "solo": "Egenföretagare",
+                    "student": "Student",
+                    "tryout": "Provanställd"
+                },
                 "other-loan": {
                     "span1": "500 kr - 1000 kr",
                     "span2": "1001 kr - 2000 kr",
@@ -1107,56 +1167,138 @@
                     "span4": "3001 kr - 4000 kr",
                     "span5": "4001 kr - 5000 kr",
                     "span6": "5001 kr eller mer"
+                },
+                "rent": {
+                    "span1": "2000 kr - 3000 kr",
+                    "span2": "3001 kr - 4000 kr",
+                    "span3": "4001 kr - 5000 kr",
+                    "span4": "5000 kr eller mer"
                 }
             },
+            "other-loan-checkbox": "Jag har inga övriga lån",
+            "other-loan-checkbox-error": "Kryssa denna eller välj ett lånebelopp nedan",
+            "other-loan-cost-error": "Välj ett ungefärligt lånebelopp",
+            "other-loan-cost-label": "Ungefärlig månadskostnad för övriga lån och krediter",
+            "others": "Bolån och övriga lån/krediter",
+            "others-living-label": "Vad är bostadens kostnader/mån?",
             "owned-label": "Vad är avgiften till föreningen/mån?",
             "rent-label": "Vad är bostadens hyra/mån?"
         },
+        "general": {
+            "about": "Om lånet",
+            "account": "Ange ett av dina egna kontonummer för utbetalning",
+            "account-number": "Kontonummer",
+            "account-number-error": "Vänligen ange ditt kontonummer",
+            "amount": "Belopp",
+            "application-date": "Ansökningsdatum",
+            "apply": "Skicka ansökan",
+            "bank": "Bank",
+            "bank-error": "Vänligen ange bankens namn",
+            "clearing-number": "Clearingnummer",
+            "clearing-number-error": "Vänligen ange ditt clearingnummer",
+            "clearing-number-error-sparbank": "Sparbankerna har 5-siffrigt clearingnr.",
+            "clearing-number-error-swedbank": "Swedbank har 4-siffrigt clearingnr.",
+            "consumer-goods": "Konsumtionsvaror (tex hemelektronik)",
+            "enter-bank": "Ange bank dit utbetalning ska ske",
+            "header": "Låneinformation",
+            "other": "Annat",
+            "other-usage": "Definiera vad",
+            "other-usage-error": "Vänligen ange vad lånet ska användas till",
+            "purpose": "Vad lånet skall användas till?",
+            "purpose-error": "Vänligen ange vad lånet ska användas till",
+            "residence-other": "Övrigt till bostad (renovering etc)",
+            "resolve": "Samla andra lån/krediter",
+            "resolve-other": "Ange belopp du avser lösa",
+            "status-label": "Status",
+            "terms": "Jag försäkrar att lämnade uppgifter är riktiga, fullständiga samt att jag är kontohavare till det angivna kontot för utbetalning. Jag är medveten om att ansökan föranleder en sedvanlig kreditprövning. Jag bekräftar att jag tagit del av samtliga dessa bestämmelser inklusive ovanstående kreditvillkor före undertecknandet",
+            "terms-error": "Vänligen försäkra att dina uppgifter är korrekta",
+            "type": "typ",
+            "type-of-loan": "Privatlån",
+            "vehicle": "Köp av fordon",
+            "withdrawal": "Utbetalning"
+        },
         "header": {
-            "header": "Låna till stort eller smått",
-            "body": "Ska du renovera hemma, köpa ny soffa eller vill du kanske slå ihop dyra smålån och krediter och på så sätt sänka din totala lånekostnad? Med Ecsters privatlån kan du låna till det du behöver. Du kan låna upp till 200 000 kr och du väljer själv återbetalningstid, upp till 12 år."
+            "body": "Ska du renovera hemma, köpa ny soffa eller vill du kanske slå ihop dyra smålån och krediter och på så sätt sänka din totala lånekostnad? Med Ecsters privatlån kan du låna till det du behöver. Du kan låna upp till 200 000 kr och du väljer själv återbetalningstid, upp till 12 år.",
+            "header": "Låna till stort eller smått"
         },
-        "body": {
-            "header": "Ansök om privatlån",
-            "amount": "Lånebelopp",
-            "payback": "Återbetalningstid",
-            "cost": "Månadskostnad",
-            "rent": "Ränta: {{rent}}%",
-            "submit": "Gå vidare",
-            "details": "Specifikation",
-            "year": "{{year}} år",
-            "show-more": "Specifikation"
-        },
-        "cost": {
-            "header": "Månadskostnad",
-            "rate": "Rörlig ränta, f.n.: {{rate}} %",
-            "effective-rate": "Effektiv ränta: {{rate}} %"
-        },
+        "overview-header": "Privatlån",
         "personal": {
+            "contact-text": "Vi behöver mobilnummer och mejladress för att kunna skicka bekräftelser om privatlånet.",
             "header": "Personuppgifter",
-            "info": "Dina uppgifter hämtas från Skatteverket.",
-            "contact-text": "Vi behöver mobilnummer och mejladress för att kunna skicka bekräftelser om privatlånet."
+            "info": "Dina uppgifter hämtas från Skatteverket."
         },
+        "processing-message": "Vi behandlar din ansökan...",
         "spec": {
+            "admin-fee": "Administrativ avgift",
+            "amount": "Totalt belopp att betala",
             "count": "Antal betalningar",
             "credit-amount": "Kreditbelopp",
             "credit-cost": "Kreditkostnad",
+            "credit-summary": "Kreditkostnaden består av",
+            "per-month": "{{value}}/mån",
             "rate-cost": "Räntekostnad",
             "start-fee": "Uppläggningsavgift",
-            "admin-fee": "Administrativ avgift",
             "sum-admin-fee": "Administrativ avgift totalt",
-            "amount": "Totalt belopp att betala",
-            "summary": "Summering",
-            "credit-summary": "Kreditkostnaden består av",
-            "per-month": "{{value}}/mån"
+            "summary": "Summering"
+        },
+        "status": {
+            "APPROVED": {
+                "body": [
+                    "<p>Skriv ut ditt [link-new-win {{url}} 'skuldebrev (pdf)' ga:loan-terms-pdf] [icon-download e-green]",
+                    "<p>Signera och skicka in (portot är förbetalt)</p><div>FRISVAR</div><div>Ecster</div><div>20677247</div><div>110 02 Stockholm</div>",
+                    "<p>Pengarna sätts in på ditt konto inom ca tre bankdagar</p>"
+                ],
+                "header": "Klart!",
+                "ingress": "Din låneansökan är godkänd och vi kan snart betala ut ditt lån.",
+                "label": "Godkänd",
+                "link": "Ladda ner och skriv ut skuldebrev",
+                "sub-header": "Vad händer nu?"
+            },
+            "DENIED": {
+                "body": [
+                    "Vi kunde tyvärr inte godkänna din ansökan",
+                    "Om du har frågor, kontakta oss gärna på $t(general.phone-link-08330130).",
+                    " Vi har öppet vardagar 9 – 18."
+                ],
+                "header": "Åh nej!"
+            },
+            "ERROR": {
+                "body": [
+                    "Ett tekniskt fel har inträffat, vi jobbar för fullt på att lösa det. Försök gärna igen om en liten stund."
+                ],
+                "header": "Åh nej!"
+            },
+            "PENDING": {
+                "body": [
+                    "Vi går igenom din låneansökan",
+                    "Du får besked på mejl inom ett dygn",
+                    "På översikten hittar du aktuell status för din ansökan"
+                ],
+                "header": "Tack för din låneansökan!",
+                "label": "Under behandling",
+                "sub-header": "Vad händer nu?"
+            }
+        },
+        "summary": {
+            "header": "Låneansökan",
+            "panel": {
+                "amount": "Lånebelopp",
+                "cost-per-month": "Kostnad/månad",
+                "effective-rate": "Effektiv ränta",
+                "header": "Valt lånebelopp och återbetalningstid",
+                "payback-time": "Återbetalningstid",
+                "rate": "Ränta",
+                "rate-value": "{{rate}} %",
+                "years": "{{year}} år"
+            }
         },
         "terms": {
+            "admin-fee": "Administrativ avgift {{amount}}/mån",
+            "fee": "Uppläggningsavgift {{amount}}",
+            "finish": "Lös lånet när du vill",
             "loan": "Låna upp till {{amount}}",
             "payback": "Välj den återbetalningstid som passar dig ({{min}} - {{max}} år)",
-            "rate": "Rörlig ränta {{rate}}%",
-            "fee": "Uppläggningsavgift {{amount}}",
-            "admin-fee": "Administrativ avgift {{amount}}/mån",
-            "finish": "Lös lånet när du vill"
+            "rate": "Rörlig ränta {{rate}}%"
         },
         "terms-apply": {
             "header": "Så här ansöker du om lånet",
@@ -1170,100 +1312,56 @@
                 "Du har en stadigvarande inkomst. Du får inte ha några betalningsanmärkningar.",
                 "Har du några frågor så kontakta oss på $t(general.phone-link-08330130)"
             ]
-        },
-        "summary": {
-            "header": "Låneansökan",
-            "panel": {
-                "header": "Valt lånebelopp och återbetalningstid",
-                "amount": "Lånebelopp",
-                "payback-time": "Återbetalningstid",
-                "cost-per-month": "Kostnad/månad",
-                "rate": "Ränta",
-                "effective-rate": "Effektiv ränta",
-                "years": "{{year}} år",
-                "rate-value": "{{rate}} %"
-            }
-        },
-        "campaign-panel": {
-            "valid-to": "Giltig till {{date}}",
-            "stripe": "Just nu"
-        }
-    },
-    "contract": {
-        "overview": {
-            "invoice": {
-                "header1": "Faktura {{month}}",
-                "status": "Status",
-                "amount": "Belopp",
-                "due-date": "Förfallodatum",
-                "header2": "Senaste inbetalning",
-                "payment-bg": "Inbetalning BG",
-                "detail-link": "Mer information"
-            },
-            "links": {
-                "invoice": "Lånefaktura",
-                "info": "Låneinformation"
-            }
-        },
-        "terms-page": {
-            "header": "Låneinformation",
-            "summary": {
-                "debt-at-date": "Skuld per {{date}}",
-                "time-left": "Tid kvar",
-                "status": "Status"
-            },
-            "terms": {
-                "contract-no": "Avtalsnummer",
-                "all-contractors": "Samtliga låntagare",
-                "yearly-interest": "Årsränta",
-                "admin-fee": "Administrativ avgift",
-                "initial-debt": "Ursprunglig skuld",
-                "object": "Objekt",
-                "registration-no": "Reg.nr.",
-                "merchant": "Säljföretag"
-            }
-        },
-        "invoice-page": {
-            "header": "Lånefaktura",
-            "short-summary": {
-                "due-amount": "Belopp att betala"
-            },
-            "summary": {
-                "header": "Betalningsuppgifter",
-                "status": "Status",
-                "due-date": "Förfallodatum",
-                "bgNumber": "Bankgiro",
-                "ocr": "OCR",
-                "autogiro": {
-                    "active": "Autogiro aktiverat",
-                    "withdrawal-info": "Beloppet kommer att dras automatiskt från ditt bankkonto på förfallodagen."
-                }
-            },
-            "specification": {
-                "header": "Specifikation",
-                "description": "Beskrivning",
-                "period": "Period",
-                "amount": "Belopp"
-
-            }
-        },
-        "redeem-info": {
-            "header": "Vill du lösa ditt lån?",
-            "info": "Kontakta vår kundservice på $t(general.phone-link-08330130) så hjälper vi dig"
         }
     },
     "navigation": {
         "account-overview": "Översikt",
+        "customer-profile": "Profil",
+        "customer-support": "Kontakta oss",
         "invoices": "Fakturor",
         "loan": "Privatlån",
-        "more": "Mer",
-        "customer-support": "Kontakta oss",
-        "customer-profile": "Profil",
-        "logout": "Logga ut"
+        "logout": "Logga ut",
+        "more": "Mer"
     },
-    "footer": {
-        "copyright": "Ecster",
-        "block-card": "Spärra kort",
-        "contact": "Kontakt"
+    "status": {
+        "backend": {
+            "down": {
+                "block-card": {
+                    "abroad": {
+                        "label": "Från utlandet",
+                        "phone": "$t(general.phone-link-4684112122)"
+                    },
+                    "domestic": {
+                        "label": "Från Sverige",
+                        "phone": "$t(general.phone-link-020411212)"
+                    },
+                    "header": "Spärra ditt kort"
+                },
+                "body": [
+                    "Just nu är våra inloggade tjänster tillfälligt stängda för systemunderhåll. Vi ber om ursäkt för besväret."
+                ],
+                "header": "Systemunderhåll"
+            }
+        }
+    },
+    "update": {
+        "button": {
+            "cancel": "OK",
+            "ok": "Uppdatera"
+        },
+        "MUST_UPDATE": {
+            "body": [
+                "Den här versionen av appen stöds inte längre.",
+                "Vänligen uppdatera till en ny version."
+            ],
+            "header": "Information"
+        },
+        "SHOULD_UPDATE": {
+            "body": [
+                "Det finns en ny version av appen.",
+                "Uppdatera och få tillgång till alla nyheter och förbättringar."
+            ],
+            "header": "Information"
+        }
     }
 }
